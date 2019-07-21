@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_space">
+
+    <ImageView
+        android:id="@+id/iv00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav_car" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv01"
+        android:text="tt"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv00"
+        android:drawablePadding="@dimen/normal_space"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1000"
+        android:text="1100"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
