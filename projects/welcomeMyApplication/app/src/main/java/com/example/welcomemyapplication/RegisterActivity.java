@@ -1,9 +1,10 @@
 package com.example.welcomemyapplication;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -12,30 +13,49 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MyloginActivity extends Activity implements View.OnClickListener{
+public class RegisterActivity extends Activity implements View.OnClickListener{
     private ImageView ivback;
-    private EditText edname,yanzm,pass;
-    private TextView tvweixin,tvqq,reginster;
-    private Button login;
+    private EditText edname,password,pass;
+    private Button reginster;
+    private TextWatcher watcher = new TextWatcher ( ){
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+          if (!TextUtils.isEmpty ( edname.getText () ) && !TextUtils.isEmpty ( pass.getText () )&&
+          !TextUtils.isEmpty ( password.getText () )){
+              reginster.setBackgroundColor(getResources ().getColor ( R.color.normal_orange  )   );
+             reginster.setEnabled ( true );
+          }
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_login );
-       ivback=(ImageView)findViewById ( R.id.login_back) ;
-       edname=(EditText)findViewById ( R.id.edsms );
-       tvqq=(TextView)findViewById ( R.id.qq );
-       tvweixin=(TextView)findViewById ( R.id.weixin );
-       login=(Button)findViewById ( R.id.login );
-       reginster=(TextView)findViewById ( R.id.register ) ;
-       yanzm=(EditText)findViewById ( R.id.edyan ) ;
+        setContentView ( R.layout.activity_regisiten );
+       ivback=(ImageView)findViewById ( R.id.register_back) ;
+       edname=(EditText)findViewById ( R.id.edname );
+       password=(EditText)findViewById ( R.id.edpassword );
        pass=(EditText)findViewById ( R.id.edpass ) ;
+       reginster=(Button)findViewById ( R.id.register ) ;
+
        ivback.setOnClickListener ( this );
-       tvweixin.setOnClickListener ( this );
-       tvqq.setOnClickListener ( this );
-       login.setOnClickListener ( this );
        reginster.setOnClickListener ( this );
-       yanzm.setOnClickListener ( this );
+       password.setOnClickListener ( this );
        pass.setOnClickListener ( this );
+       edname.setOnClickListener ( this );
+       edname.addTextChangedListener ( watcher );
+       password.addTextChangedListener ( watcher );
+       pass.addTextChangedListener ( watcher );
     }
 
     @Override
@@ -44,11 +64,8 @@ public class MyloginActivity extends Activity implements View.OnClickListener{
             case R.id.edyan:
 
                 break;
-            case R.id.login:
-                handlelogin();
-                break;
             case R.id.register:
-             chickReginste ();
+
                 break;
             case R.id.qq:
                 break;
@@ -57,11 +74,6 @@ public class MyloginActivity extends Activity implements View.OnClickListener{
 
         }
 
-    }
-
-    private void  chickReginste (){
-        Intent intent=new Intent (this,RegisterActivity.class );
-        startActivity ( intent );
     }
 
     private void handlelogin() {

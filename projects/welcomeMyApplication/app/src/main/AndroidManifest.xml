@@ -28,6 +28,7 @@
         </activity>
         <activity android:name=".AllCategoryActivity"></activity>
         <activity android:name=".MyloginActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
 
     </application>
 

@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="登录"
+            android:text="注册"
             android:padding="@dimen/normal_space"
             android:textSize="@dimen/title_text_size"
             android:background="@color/white"
@@ -22,7 +22,7 @@
             />
 
         <ImageView
-            android:id="@+id/login_back"
+            android:id="@+id/register_back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -30,17 +30,7 @@
             android:paddingRight="10dp"
             android:src="@drawable/ic_back_u" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="right|center_vertical"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="注册"
-            android:textColor="@color/normal_orange"
-            android:id="@+id/register"
-            />
+
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +41,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edsms"
+            android:id="@+id/edname"
             android:hint="邮箱/手机号/用户号"
             android:drawableLeft="@drawable/person_default"
             android:inputType="text"
@@ -73,8 +63,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edyan"
-            android:hint="验证码"
+            android:id="@+id/edpassword"
+            android:hint="密码确认"
             android:drawableLeft="@drawable/nav_imarry"
             android:inputType="text"
             android:singleLine="true"
@@ -90,51 +80,18 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="登入"
-            android:background="@color/normal_orange"
+            android:text="注册"
+            android:background="@color/gray"
             android:gravity="center_horizontal"
             android:padding="@dimen/normal_space"
             android:textSize="@dimen/title_text_size"
             android:layout_marginLeft="@dimen/normal_space"
             android:layout_marginRight="@dimen/normal_space"
             android:textColor="@color/white"
-            android:id="@+id/login"
+            android:id="@+id/register"
+            android:enabled="false"
             />
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_alignParentBottom="true"
-            >
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/weixin"
-                android:drawableLeft="@drawable/weixin_btn"
-                android:text="微信登录"
-                android:padding="30dp"
-                android:drawablePadding="10dp"
-                />
-            <TextView
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
-                android:background="@color/normal_bg_color"
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/qq"
-                android:drawableLeft="@drawable/qq_btn"
-                android:text="微信QQ"
-                android:padding="30dp"
-                android:drawablePadding="10dp">
-
-            </TextView>
-        </LinearLayout>
 
     </RelativeLayout>
 </LinearLayout>
