@@ -1,7 +1,9 @@
 package com.example.welcomemyapplication;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -17,6 +19,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener{
     private ImageView ivback;
     private EditText edname,password,pass;
     private Button reginster;
+    private AlertDialog myDialog;
     private TextWatcher watcher = new TextWatcher ( ){
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -58,14 +61,51 @@ public class RegisterActivity extends Activity implements View.OnClickListener{
        pass.addTextChangedListener ( watcher );
     }
 
+    private void validation() {
+        hideSoftKeyboard(this);
+        final AlertDialog.Builder builder = new AlertDialog.Builder ( this );
+        myDialog = builder.create ();
+        if (pass.length ( ) < 5) {
+            builder.setTitle ( "提醒" ).setIcon ( R.drawable.new_icon ).setMessage ( "请输入大于5个字数的密码" ).setPositiveButton ( "确定",
+                    new DialogInterface.OnClickListener ( ){
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                             myDialog.dismiss ();
+                        }
+                    } ).show ();
+
+        }
+        if (!pass.getText ().toString ().equals ( password.getText ().toString () ) ){
+            builder.setTitle ( "提醒" ).setIcon ( R.drawable.new_icon ).setMessage ( "密码与确认密码不一致" ).setPositiveButton ( "确定",
+                    new DialogInterface.OnClickListener ( ){
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            myDialog.dismiss ();
+                        }
+                    } ).show ();
+        }
+        if (edname.getText ().toString ().equals ( "abcde") && pass.getText ().toString ().equals ("12345")){
+            finish ();
+        } else {
+            builder.setTitle ( "提醒" ).setIcon ( R.drawable.new_icon ).setMessage ( "输入的用户密码不正确" ).setPositiveButton ( "确定",
+                new DialogInterface.OnClickListener ( ){
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        myDialog.dismiss ();
+                    }
+                } ).show ();
+
+        }
+    }
+
     @Override
     public void onClick(View v) {
         switch (v.getId ()){
-            case R.id.edyan:
+            case R.id.edpassword:
 
                 break;
             case R.id.register:
-
+                validation();
                 break;
             case R.id.qq:
                 break;

@@ -81,7 +81,7 @@ public class MyloginActivity extends Activity implements View.OnClickListener{
             Toast.makeText ( this,"密码不能小于5个字",Toast.LENGTH_SHORT ).show ();
 
         }
-        if (userName.equals ( userName="user001")&&password.equals (password="12345")){
+        if (userName.equals ( "user001")&&password.equals ("12345")){
             Toast.makeText ( this,"登录成功",Toast.LENGTH_SHORT ).show ();
             finish ();
         } else {
