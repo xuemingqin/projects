@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/content3"
+        android:text="@string/tutorial_page_2_large_message"
         android:layout_below="@+id/iv01"
         android:layout_centerHorizontal="true"
         android:gravity="center"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/content2"
+        android:text="@string/tutorial_page_2_message"
         android:layout_below="@+id/tv01"
         android:layout_centerHorizontal="true"
         android:gravity="left"
@@ -36,6 +36,8 @@
         android:lineSpacingExtra="20dp"
         android:id="@+id/tv02"
         android:textSize="14dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         />
     <TextView
         android:layout_width="wrap_content"

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <include layout="@layout/toolbar">
+
+   </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cToolbar"
+        android:background="@color/common_background"
+        android:layout_above="@+id/term_footerLayout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/common_background"
+            android:paddingBottom="@dimen/margin_vertical_36dp"
+            >
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/term_reconsent_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:lineSpacingExtra="@dimen/term_line_spacing_extra"
+                android:text="@string/app_term_consent_message"
+                android:textColor="#ff0000"
+                android:textFontWeight="3"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/margin_horizontal_32dp"
+                android:layout_marginRight="@dimen/margin_horizontal_32dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_vertical_16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_horizontal_32dp"
+                android:layout_marginTop="@dimen/margin_vertical_12dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/term_app_policy_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="アプリケーション・プライバシーポリシー"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_xx_small"
+                    />
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/term_app_policy_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_term_privacy_policy_detail"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="@dimen/margin_vertical_16dp"
+                android:textSize="@dimen/text_size_xx_small"
+                android:textColor="@color/common_black"
+                android:lineSpacingExtra="@dimen/term_line_spacing_extra"
+                />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/term_app_decide_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/app_term_decide_detail"
+                android:layout_marginTop="@dimen/margin_vertical_18dp"
+                android:textSize="@dimen/text_size_xx_small"
+                android:textColor="@color/common_dark_blue"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_vertical_18dp"
+                android:orientation="horizontal"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/term_software_title"
+                    android:textSize="@dimen/text_size_xx_small"
+                    android:textColor="@color/common_black"
+                    android:text="@string/app_term_docomo_term_of_application_service"
+                    />
+
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_vertical_18dp"
+                android:id="@+id/term_software_detail"
+                android:textSize="@dimen/text_size_xx_small"
+                android:textColor="@color/common_black"
+                android:lineSpacingExtra="@dimen/term_line_spacing_extra"
+                android:text="@string/term"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/term_footer_layout_height"
+        android:id="@+id/term_footerLayout"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:background="#ffff"
+        >
+        <include
+            android:id="@+id/checkbox_narmal"
+            layout="@layout/term_normal">
+        </include>
+        <RelativeLayout
+            android:id="@+id/term_button_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/term_footer_button_height"
+            android:layout_marginBottom="@dimen/margin_vertical_16dp">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/agree"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/term_footer_button_height"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/margin_horizontal_32dp"
+                android:layout_marginRight="@dimen/margin_horizontal_32dp"
+                android:enabled="false"
+                android:text="@string/app_term_agree" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+

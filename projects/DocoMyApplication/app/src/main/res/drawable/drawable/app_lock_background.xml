@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:height="@dimen/app_lock_background_gradient_height">
+
+    <shape android:shape="rectangle">
+        <gradient
+            android:angle="270"
+            android:startColor="@color/app_lock_background_start_color"
+            android:endColor="@color/app_lock_background_end_color"
+            android:type="linear"/>
+    </shape>
+</item>
+
+</layer-list>

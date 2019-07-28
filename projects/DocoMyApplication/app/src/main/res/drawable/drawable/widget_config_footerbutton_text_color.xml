@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed state -->
+    <item android:state_pressed="true"
+        android:alpha="0.5"
+        android:color="@color/common_dark_blue" />
+
+    <!-- normal state -->
+    <item android:color="@color/common_dark_blue" />
+</selector>

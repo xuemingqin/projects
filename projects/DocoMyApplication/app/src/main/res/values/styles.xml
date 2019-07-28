@@ -1,11 +1,26 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/common_white</item>
+        <item name="colorPrimaryDark">#2a2a2a</item>
+        <item name="colorAccent">@color/common_blue</item>
+        <item name="android:textColorPrimary">@color/common_black</item>
+        <item name="android:textColor">@color/app_black</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorButtonNormal">#dcdcdc</item>
+        <item name="actionModeBackground">@color/app_black</item>
+        <item name="actionMenuTextColor">@color/app_white</item>
+        <item name="colorControlHighlight">@color/common_ripple</item>
+        <item name="android:actionBarSize">@dimen/toolbar_height</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme" />
+
+    <style name="TutorialSkiplink">
+        <item name="android:textColor">@color/common_dark_blue</item>
+        <item name="android:textSize">@dimen/text_size_xx_small</item>
     </style>
 
 </resources>
+

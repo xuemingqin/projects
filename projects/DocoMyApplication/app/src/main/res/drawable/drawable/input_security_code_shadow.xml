@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+
+    <item>
+        <shape>
+            <stroke android:width="@dimen/two_step_accept_tab_bottom_shadow" android:color="@color/common_gray" />
+
+            <padding android:bottom="@dimen/two_step_accept_tab_bottom_shadow" android:left="@dimen/two_step_accept_tab_right_left_shadow"
+                android:right="@dimen/two_step_accept_tab_right_left_shadow" android:top="@dimen/two_step_accept_tab_top_shadow" />
+
+            <corners android:radius="@dimen/two_step_accept_tab_rectangle_radius" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@color/common_white" />
+            <corners android:radius="@dimen/two_step_accept_tab_rectangle_radius" />
+        </shape>
+    </item>
+    </layer-list>

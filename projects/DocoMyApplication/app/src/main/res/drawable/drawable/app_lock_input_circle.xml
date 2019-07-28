@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <stroke
+        android:color="@color/common_black"
+        android:width="@dimen/applock_input_circle_stroke_width"/>
+
+    <size
+        android:width="@dimen/applock_input_circle_shape_size"
+        android:height="@dimen/applock_input_circle_shape_size"/>
+</shape>

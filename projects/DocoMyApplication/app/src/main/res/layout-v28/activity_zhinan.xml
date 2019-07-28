@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/content"
+        android:text="@string/tutorial_page_1_large_message_tab"
         android:layout_below="@+id/iv01"
         android:layout_centerHorizontal="true"
         android:gravity="center"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/content2"
+        android:text="@string/tutorial_page_1_message"
         android:layout_below="@+id/tv01"
         android:layout_centerHorizontal="true"
         android:gravity="left"
@@ -43,7 +43,7 @@
         android:layout_below="@+id/tv02"
         android:text="スキップ"
         android:layout_centerHorizontal="true"
-        android:paddingTop="80dp"
+        android:layout_marginTop="80dp"
         android:textSize="12dp"
         android:textColor="#0070C9"
         />

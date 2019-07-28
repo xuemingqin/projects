@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Tap 押下時-->
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle">
+            <corners android:radius="@dimen/mail_service_setting_commonly_used_services_background_radius" />
+            <solid android:color="@color/common_appendimage_tap" />
+        </shape>
+    </item>
+
+
+    <!--Normal 通常時-->
+    <!--Visited 訪問済み-->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+            <corners android:radius="@dimen/mail_service_setting_commonly_used_services_background_radius" />
+            <solid android:color="@color/common_white" />
+        </shape>
+    </item>
+</selector>

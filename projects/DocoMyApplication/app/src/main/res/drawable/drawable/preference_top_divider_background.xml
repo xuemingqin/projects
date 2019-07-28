@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background_divider" />
+                    <stroke android:width="@dimen/divider_height" android:color="@color/common_background_divider" />
+                </shape>
+            </item>
+
+            <item android:top="@dimen/divider_height">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background_divider" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background_divider" />
+                    <stroke android:width="@dimen/divider_height" android:color="@color/common_background_divider" />
+                </shape>
+            </item>
+
+            <item android:top="@dimen/divider_height">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background_divider" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background" />
+                    <stroke android:width="@dimen/divider_height" android:color="@color/common_background_divider" />
+                </shape>
+            </item>
+
+            <item android:top="@dimen/divider_height">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_background" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

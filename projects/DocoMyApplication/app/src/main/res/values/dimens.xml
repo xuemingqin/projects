@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- テキストサイズ定義.
+         Prefixに"text_size_"を付与すること -->
+    <dimen name="text_size_xx_large">32dp</dimen>
+    <dimen name="text_size_x_large">28dp</dimen>
+    <dimen name="text_size_large">24dp</dimen>
+    <dimen name="text_size_big_medium">20dp</dimen>
+    <dimen name="text_size_medium">18dp</dimen>
+    <dimen name="text_size_x_medium">16dp</dimen>
+    <dimen name="text_size_small">15dp</dimen>
+    <dimen name="text_size_x_small">14dp</dimen>
+    <dimen name="text_size_xx_small">12dp</dimen>
+    <dimen name="text_size_xxx_small">11dp</dimen>
+    <dimen name="text_size_xxxx_small">10dp</dimen>
+    <dimen name="text_size_xxxxx_small">9dp</dimen>
+    <dimen name="text_size_widget_small_label_text">6dp</dimen>
+
+    <!-- 行間サイズ -->
+    <dimen name="text_line_large">24dp</dimen>
+    <dimen name="text_line_medium">20dp</dimen>
+    <dimen name="text_line_small">18dp</dimen>
+    <dimen name="text_line_x_small">12dp</dimen>
+
+    <!-- マージン、Padding定義.
+         縦方向 "vertical"、横方向 "horizontal"の付与、
+         及びPrefixに"margin_"/"padding_"を付与すること -->
+    <!--例：<dimen name="margin_vertical_要素名/画面名">10dp</dimen>-->
+    <dimen name="margin_vertical_about_app_tablet">200dp</dimen>
+    <dimen name="margin_vertical_146dp">146dp</dimen>
+    <dimen name="margin_vertical_130dp">130dp</dimen>
+    <dimen name="margin_vertical_88dp">88dp</dimen>
+    <dimen name="margin_vertical_104dp">104dp</dimen>
+    <dimen name="margin_vertical_100dp">100dp</dimen>
+    <dimen name="margin_vertical_96dp">96dp</dimen>
+    <dimen name="margin_vertical_80dp">80dp</dimen>
+    <dimen name="margin_vertical_79dp">79dp</dimen>
+    <dimen name="margin_vertical_72dp">72dp</dimen>
+    <dimen name="margin_vertical_64dp">64dp</dimen>
+    <dimen name="margin_vertical_60dp">60dp</dimen>
+    <dimen name="margin_vertical_50dp">50dp</dimen>
+    <dimen name="margin_vertical_49dp">49dp</dimen>
+    <dimen name="margin_vertical_48dp">48dp</dimen>
+    <dimen name="margin_vertical_44dp">44dp</dimen>
+    <dimen name="margin_vertical_43dp">43dp</dimen>
+    <dimen name="margin_vertical_42dp">42dp</dimen>
+    <dimen name="margin_vertical_40dp">40dp</dimen>
+    <dimen name="margin_vertical_36dp">36dp</dimen>
+    <dimen name="margin_vertical_33dp">33dp</dimen>
+    <dimen name="margin_vertical_32dp">32dp</dimen>
+    <dimen name="margin_vertical_29dp">29dp</dimen>
+    <dimen name="margin_vertical_28dp">28dp</dimen>
+    <dimen name="margin_vertical_30dp">30dp</dimen>
+    <dimen name="margin_vertical_26dp">26dp</dimen>
+    <dimen name="margin_vertical_24dp">24dp</dimen>
+    <dimen name="margin_vertical_23dp">23dp</dimen>
+    <dimen name="margin_vertical_22dp">22dp</dimen>
+    <dimen name="margin_vertical_20dp">20dp</dimen>
+    <dimen name="margin_vertical_21dp">21dp</dimen>
+    <dimen name="margin_vertical_19dp">19dp</dimen>
+    <dimen name="margin_vertical_18dp">18dp</dimen>
+    <dimen name="margin_vertical_16dp">16dp</dimen>
+    <dimen name="margin_vertical_15dp">15dp</dimen>
+    <dimen name="margin_vertical_14dp">14dp</dimen>
+    <dimen name="margin_vertical_12dp">12dp</dimen>
+    <dimen name="margin_vertical_10dp">10dp</dimen>
+    <dimen name="margin_vertical_8dp">8dp</dimen>
+    <dimen name="margin_vertical_6dp">6dp</dimen>
+    <dimen name="margin_vertical_5dp">5dp</dimen>
+    <dimen name="margin_vertical_4dp">4dp</dimen>
+    <dimen name="margin_vertical_3dp">3dp</dimen>
+    <dimen name="margin_vertical_2dp">2dp</dimen>
+    <dimen name="margin_vertical_1dp">1dp</dimen>
+
+    <dimen name="margin_horizontal_210dp">210dp</dimen>
+    <dimen name="margin_horizontal_110dp">110dp</dimen>
+    <dimen name="margin_horizontal_88dp">88dp</dimen>
+    <dimen name="margin_horizontal_48dp">48dp</dimen>
+    <dimen name="margin_horizontal_44dp">44dp</dimen>
+    <dimen name="margin_horizontal_36dp">36dp</dimen>
+    <dimen name="margin_horizontal_32dp">32dp</dimen>
+    <dimen name="margin_horizontal_28dp">28dp</dimen>
+    <dimen name="margin_horizontal_27dp">27dp</dimen>
+    <dimen name="margin_horizontal_24dp">24dp</dimen>
+    <dimen name="margin_horizontal_20dp">20dp</dimen>
+    <dimen name="margin_horizontal_21dp">21dp</dimen>
+    <dimen name="margin_horizontal_19dp">19dp</dimen>
+    <dimen name="margin_horizontal_18dp">18dp</dimen>
+    <dimen name="margin_horizontal_16dp">16dp</dimen>
+    <dimen name="margin_horizontal_14dp">14dp</dimen>
+    <dimen name="margin_horizontal_13dp">13dp</dimen>
+    <dimen name="margin_horizontal_12dp">12dp</dimen>
+    <dimen name="margin_horizontal_10dp">10dp</dimen>
+    <dimen name="margin_horizontal_8dp">8dp</dimen>
+    <dimen name="margin_horizontal_6dp">6dp</dimen>
+    <dimen name="margin_horizontal_5dp">5dp</dimen>
+    <dimen name="margin_horizontal_4dp">4dp</dimen>
+    <dimen name="margin_horizontal_2dp">2dp</dimen>
+
+    <dimen name="margin_horizontal_max_separater">20dp</dimen>
+    <dimen name="margin_horizontal_medium_separater">10dp</dimen>
+    <dimen name="margin_horizontal_small_separater">8dp</dimen>
+    <dimen name="margin_horizontal_small_x_separater">7dp</dimen>
+    <dimen name="margin_horizontal_small_xx_separater">6dp</dimen>
+
+    <dimen name="margin_vertical_medium_separater">10dp</dimen>
+
+    <dimen name="margin_horizontal_text_recommend_164dp">164dp</dimen>
+    <dimen name="margin_horizontal_text_recommend_close_button">-28dp</dimen>
+
+    <dimen name="margin_vertical_applock_12dp">12dp</dimen>
+    <dimen name="margin_vertical_applock_24dp">24dp</dimen>
+
+    <dimen name="margin_vertical_notice_popup_40dp">40dp</dimen>
+
+    <dimen name="margin_horizontal_applock_32dp">32dp</dimen>
+    <dimen name="margin_horizontal_applock_16dp">16dp</dimen>
+    <dimen name="margin_horizontal_applock_9dp">9dp</dimen>
+
+    <dimen name="margin_horizontal_drawer_right">-65dp</dimen>
+
+    <dimen name="margin_horizontal_cardview_disp_fit_offset">-4dp</dimen>
+
+    <dimen name="padding_vertical_license_36dp">36dp</dimen>
+    <dimen name="padding_vertical_license_16dp">16dp</dimen>
+
+    <dimen name="padding_horizontal_license_16dp">16dp</dimen>
+
+    <dimen name="padding_vertical_36dp">36dp</dimen>
+    <dimen name="padding_vertical_32dp">32dp</dimen>
+    <dimen name="padding_vertical_24dp">24dp</dimen>
+    <dimen name="padding_vertical_20dp">20dp</dimen>
+    <dimen name="padding_vertical_16dp">16dp</dimen>
+    <dimen name="padding_vertical_12dp">12dp</dimen>
+    <dimen name="padding_vertical_10dp">10dp</dimen>
+    <dimen name="padding_vertical_8dp">8dp</dimen>
+    <dimen name="padding_vertical_6dp">6dp</dimen>
+    <dimen name="padding_vertical_4dp">4dp</dimen>
+
+    <dimen name="padding_horizontal_36dp">36dp</dimen>
+    <dimen name="padding_horizontal_32dp">32dp</dimen>
+    <dimen name="padding_horizontal_24dp">24dp</dimen>
+    <dimen name="padding_horizontal_20dp">20dp</dimen>
+    <dimen name="padding_horizontal_16dp">16dp</dimen>
+    <dimen name="padding_horizontal_12dp">12dp</dimen>
+    <dimen name="padding_horizontal_10dp">10dp</dimen>
+    <dimen name="padding_horizontal_6dp">10dp</dimen>
+    <dimen name="padding_horizontal_4dp">4dp</dimen>
+
+    <dimen name="padding_horizontal_hint_12dp">12dp</dimen>
+
+    <dimen name="padding_horizontal_applock_32dp">32dp</dimen>
+
+    <!-- Setting/Account -->
+    <dimen name="setting_preference_category_title_layout_height">48dp</dimen>
+
+    <!-- Setting/Account -->
+    <dimen name="setting_account_add_icon_size">16dp</dimen>
+    <dimen name="setting__status_bar_auto_update_width">80dp</dimen>
+    <dimen name="setting__status_bar_auto_update_height">24dp</dimen>
+    <dimen name="setting_account_add_text_height">48dp</dimen>
+    <dimen name="setting_account_text_height">176dp</dimen>
+
+    <!-- 表示要素のサイズ定義.
+         Suffixに"_width"/"height"を付与すること -->
+    <!--例：<dimen name="要素名/画面名_要素名_width/height">10dp</dimen>-->
+
+    <!-- Common/List -->
+    <dimen name="common_list_height">48dp</dimen>
+    <dimen name="common_recommend_height">88dp</dimen>
+
+    <!-- スプラッシュ画面 -->
+    <dimen name="splash_logo_icon_width">100dp</dimen>
+    <dimen name="splash_logo_icon_height">91dp</dimen>
+    <dimen name="splash_tab_logo_icon_width">140dp</dimen>
+    <dimen name="splash_tab_logo_icon_height">128dp</dimen>
+    <dimen name="splash_company_logo_icon_width">92dp</dimen>
+    <dimen name="splash_company_logo_icon_height">28dp</dimen>
+    <dimen name="splash_tab_company_logo_icon_width">138dp</dimen>
+    <dimen name="splash_tab_company_logo_icon_height">42dp</dimen>
+
+    <!-- 下タブ・共通 -->
+    <dimen name="bottom_tab_height">56dp</dimen>
+    <dimen name="bottom_tab_icon_size">24dp</dimen>
+    <dimen name="bottom_tab_divider">0.5dp</dimen>
+
+    <!-- 下タブ・ホーム -->
+    <dimen name="home_dims_icon_margin_left">19dp</dimen>
+    <dimen name="home_welcome_message_height">120dp</dimen>
+    <dimen name="home_custom_progress_height">120dp</dimen>
+    <dimen name="home_text_recommend_width">768dp</dimen>
+    <dimen name="home_text_recommend_close_button_size">20dp</dimen>
+    <dimen name="home_last_update_height">32dp</dimen>
+    <dimen name="home_commonly_item_title_height">48dp</dimen>
+    <dimen name="home_commonly_item_unit_width">98dp</dimen>
+    <dimen name="home_commonly_item_unit_height">90dp</dimen>
+    <dimen name="home_commonly_item_unit_icon_size">48dp</dimen>
+    <dimen name="home_commonly_item_divider_width">8dp</dimen>
+    <dimen name="home_toolbar_spinner_anchor_size">24dp</dimen>
+
+    <!-- 下タブ・ホーム > 上タブ・TOP -->
+    <dimen name="home_top_tab_indicator_height">44dp</dimen>
+    <dimen name="home_top_tab_indicator_highlight_height">26dp</dimen>
+    <dimen name="home_top_tab_indicator_highlight_width_default">50dp</dimen>
+    <dimen name="home_top_tab_indicator_highlight_radius">13dp</dimen>
+    <dimen name="home_top_tab_indicator_notification_circle_size">6dp</dimen>
+    <dimen name="home_top_tab_indicator_notification_circle_radius">3dp</dimen>
+    <dimen name="home_top_input_security_layout_radius">6dp</dimen>
+    <dimen name="home_top_tab_indicator_notification_circle_radius_margin_top">3dp</dimen>
+    <dimen name="home_top_tab_indicator_notification_circle_radius_margin_end">5dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > 共通 -->
+    <dimen name="card_width">351dp</dimen>
+    <dimen name="card_height">171dp</dimen>
+    <dimen name="card_title_height">48dp</dimen>
+    <dimen name="card_title_icon_size">24dp</dimen>
+    <dimen name="card_title_right_arrow_size">24dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > データ通信量 -->
+    <dimen name="card_data_traffic_slash_icon_size">20dp</dimen>
+    <dimen name="card_data_traffic_info_add_data_button_width">120dp</dimen>
+    <dimen name="card_data_traffic_info_add_data_button_height">36dp</dimen>
+    <dimen name="card_data_traffic_info_block_used_width">120dp</dimen>
+    <dimen name="card_data_traffic_info_block_used_height">63dp</dimen>
+    <dimen name="card_data_traffic_info_packet_info_height">52dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > ご利用金額 -->
+    <dimen name="card_fee_main_container_height">55dp</dimen>
+    <dimen name="card_fee_main_container_tax_base_line_margin">-8dp</dimen>
+    <dimen name="card_fee_main_container_yen_base_line_margin">-8dp</dimen>
+    <dimen name="card_fee_sub_container_height">36dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > dポイント -->
+    <dimen name="card_point_main_container_height">55dp</dimen>
+    <dimen name="card_point_main_container_point_base_line_margin">-8dp</dimen>
+    <dimen name="card_point_sub_container_height">36dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > ショップ -->
+    <dimen name="card_shop_main_container_height">66dp</dimen>
+    <dimen name="card_shop_sub_container_height">48dp</dimen>
+    <dimen name="card_shop_right_arrow_size">24dp</dimen>
+    <dimen name="card_shop_divider_height">1dp</dimen>
+    <dimen name="card_value_fragment_height">44dp</dimen>
+
+    <!-- 下タブ・ホーム > CardView > ご利用機種 -->
+    <dimen name="card_device_model_device_image_size">80dp</dimen>
+
+    <!-- コンテンツ最大幅 -->
+    <dimen name="content_max_width">712dp</dimen>
+
+    <!-- 上タブ・共通 -->
+    <dimen name="upper_tab_text_size">12dp</dimen>
+
+    <!-- 上タブ・データ通信量 -->
+    <dimen name="data_traffic_list_main_height">48dp</dimen>
+    <dimen name="data_traffic_list_sub_height">48dp</dimen>
+    <dimen name="data_traffic_list_3days_height">76dp</dimen>
+    <dimen name="data_traffic_list_another_line_height">66dp</dimen>
+    <dimen name="data_traffic_list_child_height">66dp</dimen>
+    <dimen name="data_traffic_right_arrow_size">24dp</dimen>
+    <dimen name="data_traffic_list_another_line_line_spacing_extra_16">4dp</dimen>
+    <dimen name="data_traffic_list_divider_height">1dp</dimen>
+    <dimen name="data_traffic_detail_progress_bar_height">24dp</dimen>
+    <dimen name="data_traffic_detail_add_data_button_height">36dp</dimen>
+    <dimen name="data_traffic_detail_normal_traffic_message_height">52dp</dimen>
+    <dimen name="data_traffic_detail_warning_text_height">36dp</dimen>
+    <dimen name="data_traffic_detail_color_explain_height">24dp</dimen>
+    <dimen name="data_traffic_detail_color_explain_width">8dp</dimen>
+
+    <!-- 上タブ・料金 -->
+    <dimen name="fee_detail_breakdown_view_pager_indicator_item_width">28dp</dimen>
+    <dimen name="fee_detail_breakdown_view_pager_indicator_height">44dp</dimen>
+    <dimen name="fee_detail_breakdown_view_pager_indicator_highlight_width">54dp</dimen>
+    <dimen name="fee_detail_breakdown_view_pager_indicator_highlight_height">26dp</dimen>
+    <dimen name="fee_detail_breakdown_view_pager_indicator_highlight_radius">13dp</dimen>
+    <dimen name="fee_detail_traffic_select_height">36dp</dimen>
+    <dimen name="fee_detail_self_traffic_select_width">122dp</dimen>
+    <dimen name="fee_detail_traffic_selected_line_height">3dp</dimen>
+    <dimen name="fee_detail_traffic_selected_divider_width">1dp</dimen>
+    <dimen name="fee_detail_traffic_selected_divider_height">20dp</dimen>
+    <dimen name="fee_detail_total_traffic_line_overview">62dp</dimen>
+    <!--<dimen name="fee_detail_barchartview_height">196dp</dimen>-->
+    <dimen name="fee_detail_barchartview_height">176dp</dimen>
+    <dimen name="fee_detail_barchartview_line_height">1dp</dimen>
+    <dimen name="fee_detail_traffic_summary_height">36dp</dimen>
+    <dimen name="fee_detail_self_traffic_value_line_height">52dp</dimen>
+    <dimen name="fee_detail_self_traffic_confirm_icon_width">50dp</dimen>
+    <dimen name="fee_detail_self_traffic_confirm_icon_height">20dp</dimen>
+    <dimen name="fee_detail_total_traffic_value_line_height">68dp</dimen>
+    <dimen name="fee_detail_total_traffic_num_height">28dp</dimen>
+    <dimen name="fee_detail_see_detail_button_height">36dp</dimen>
+    <dimen name="fee_detail_total_traffic_number_list_title_height">48dp</dimen>
+    <dimen name="fee_detail_total_traffic_number_list_title_textsize">13dp</dimen>
+    <dimen name="fee_detail_tab_total_traffic_line_overview">46dp</dimen>
+    <dimen name="fee_detail_graph_transition_image_width">32dp</dimen>
+    <dimen name="fee_detail_graph_transition_image_height">32dp</dimen>
+    <dimen name="fee_detail_tab_barchartview_width">520dp</dimen>
+    <dimen name="fee_detail_barchartview_bar_width">16dp</dimen>
+    <dimen name="fee_detail_barchartview_bar_max_height">98dp</dimen>
+    <dimen name="fee_detail_barchartview_bar_chart_area_height">100dp</dimen>
+
+    <dimen name="bill_list_main_height">52dp</dimen>
+    <dimen name="bill_list_main_fixed_icon_width">50dp</dimen>
+    <dimen name="bill_list_main_fixed_icon_height">20dp</dimen>
+    <dimen name="bill_list_main_tax_base_line_margin">-6dp</dimen>
+    <dimen name="bill_list_main_yen_base_line_margin">-6dp</dimen>
+    <dimen name="bill_list_sub_height">50dp</dimen>
+    <dimen name="bill_list_detail_single_line_height">50dp</dimen>
+    <dimen name="bill_list_detail_double_line_height">68dp</dimen>
+    <dimen name="bill_list_sub_yen_base_line_margin">-2dp</dimen>
+    <dimen name="bill_list_detail_yen_base_line_margin">2dp</dimen>
+
+    <!-- 上タブ・ポイント -->
+    <dimen name="point_list_main_height">48dp</dimen>
+    <dimen name="point_list_expiration_height">56dp</dimen>
+    <dimen name="point_list_detail_height">54dp</dimen>
+    <dimen name="point_list_stage_height">48dp</dimen>
+    <dimen name="point_premium_coupon_image_size_width">287dp</dimen>
+    <dimen name="point_premium_coupon_image_size_height">173dp</dimen>
+    <dimen name="point_special_coupon_total_width">286dp</dimen>
+    <dimen name="point_special_coupon_image_size_width">139dp</dimen>
+    <dimen name="point_special_coupon_image_size_space_width">8dp</dimen>
+    <dimen name="point_special_coupon_image_width">139dp</dimen>
+    <dimen name="point_special_coupon_image_height">90dp</dimen>
+    <dimen name="point_special_coupon_image_size_height">167dp</dimen>
+    <dimen name="point_stage_information_height">54dp</dimen>
+    <dimen name="point_stage_information_arrow_icon_size">24dp</dimen>
+    <dimen name="point_stage_information_divider_width">1dp</dimen>
+    <dimen name="point_stage_information_divider_height">1dp</dimen>
+    <dimen name="point_d_point_club_divider_height">24dp</dimen>
+    <dimen name="point_point_icon_size">32dp</dimen>
+    <dimen name="point_recommend_coupon_title_height">90dp</dimen>
+    <dimen name="point_recommend_coupon_view_size_width">298dp</dimen>
+    <dimen name="point_recommend_coupon_view_size_height">222dp</dimen>
+    <dimen name="point_recommend_coupon_image_size_width">90dp</dimen>
+    <dimen name="point_recommend_coupon_image_size_height">55dp</dimen>
+    <dimen name="point_d_market_view_size_height">146dp</dimen>
+    <dimen name="point_d_market_view_size_height_tab">222dp</dimen>
+    <dimen name="point_d_market_image_size_width">68dp</dimen>
+    <dimen name="point_d_market_image_size_height">68dp</dimen>
+    <dimen name="point_d_market_title_text_size">7dp</dimen>
+    <dimen name="point_d_market_title_radius">4dp</dimen>
+    <dimen name="point_now_stage_description_height">54dp</dimen>
+    <dimen name="point_divider_width">1dp</dimen>
+    <dimen name="point_tab_space_width">8dp</dimen>
+
+    <dimen name="home_point_recommend_often_use_items_margin_right">28dp</dimen>
+    <dimen name="home_point_recommend_often_use_items_margin_left">28dp</dimen>
+    <!-- ご利用状況 dポイント タブレットサイズ -->
+
+    <dimen name="account_setting_app_button_height">48dp</dimen>
+    <dimen name="account_setting_password_mask_width">48dp</dimen>
+    <dimen name="account_setting_password_mask_height">24dp</dimen>
+    <dimen name="account_setting_password_mask_radius">2dp</dimen>
+    <dimen name="account_setting_password_mask_stroke">1dp</dimen>
+    <dimen name="account_setting_active_divider">2dp</dimen>
+    <dimen name="account_setting_selecte_text_width">96dp</dimen>
+    <dimen name="account_setting_checkbox_height">44dp</dimen>
+    <dimen name="account_add_dialog_width">375dp</dimen>
+    <dimen name="account_add_dialog_height">495dp</dimen>
+    <dimen name="account_add_dialog_height_for_change_pwd">688dp</dimen>
+    <dimen name="account_add_dialog_height_for_change_pwd_main_layout_height">632dp</dimen>
+    <dimen name="account_add_dialog_height_land">480dp</dimen>
+    <dimen name="account_add_dialog_head_height">56dp</dimen>
+    <dimen name="account_add_dialog_body_height">300dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- チュートリアル -->
+    <dimen name="tutorial_image_width">200dp</dimen>
+    <dimen name="tutorial_image_height">220dp</dimen>
+    <dimen name="tutorial_image_tab_width">400dp</dimen>
+    <dimen name="tutorial_image_tab_height">400dp</dimen>
+    <dimen name="tutorial_message_width">311dp</dimen>
+    <dimen name="tutorial_message_tab_width">480dp</dimen>
+    <dimen name="tutorial_page_indicator_width">40dp</dimen>
+    <dimen name="tutorial_page_indicator_height">8dp</dimen>
+    <dimen name="tutorial_page_indicator_tab_width">60dp</dimen>
+    <dimen name="tutorial_page_indicator_tab_height">12dp</dimen>
+    <dimen name="margin_vertical_large_message_separater">6dp</dimen>
+    <dimen name="margin_vertical_large_message_tab_separater">4dp</dimen>
+    <dimen name="margin_vertical_message_separater">6dp</dimen>
+    <dimen name="tutorial_indicator_height">8dp</dimen>
+    <dimen name="tutorial_indicator_width">8dp</dimen>
+    <dimen name="tutorial_indicator_content_height">6dp</dimen>
+    <dimen name="tutorial_indicator_content_width">6dp</dimen>
+    <dimen name="tutorial_indicator_tab_width">12dp</dimen>
+    <dimen name="tutorial_indicator_tab_height">12dp</dimen>
+    <dimen name="tutorial_indicator_content_tab_width">9dp</dimen>
+    <dimen name="tutorial_indicator_content_tab_height">9dp</dimen>
+    <dimen name="tutorial_3_button_width">264dp</dimen>
+    <dimen name="tutorial_3_button_button_height">48dp</dimen>
+
+    <!-- 利用規約 -->
+    <dimen name="term_read_agree_top_width">18dp</dimen>
+    <dimen name="term_line_spacing_extra">6dp</dimen>
+    <dimen name="term_read_agree_checkbox_width">220dp</dimen>
+    <dimen name="term_read_agree_button_width">264dp</dimen>
+    <dimen name="term_read_agree_button_tab_width">311dp</dimen>
+    <dimen name="term_toolbar_line_height">1dp</dimen>
+    <dimen name="term_icon_size">32dp</dimen>
+    <dimen name="term_footer_layout_height">128dp</dimen>
+    <dimen name="term_footer_button_height">48dp</dimen>
+
+    <!-- AppLock -->
+    <dimen name="app_lock_use_button_width">264dp</dimen>
+    <dimen name="app_lock_use_button_height">48dp</dimen>
+    <dimen name="app_lock_skip_button_height">25dp</dimen>
+    <dimen name="app_lock_image_width_size">144dp</dimen>
+    <dimen name="app_lock_image_height_size">187dp</dimen>
+    <dimen name="app_lock_image_width_size_tab">280dp</dimen>
+    <dimen name="app_lock_image_height_size_tab">360dp</dimen>
+    <dimen name="app_lock_image_num_width">84dp</dimen>
+    <dimen name="app_lock_image_num_height">113dp</dimen>
+    <dimen name="app_lock_image_num_tab_width">183dp</dimen>
+    <dimen name="app_lock_image_num_tab_height">240dp</dimen>
+    <dimen name="app_lock_image_num_raw_height">28dp</dimen>
+    <dimen name="app_lock_image_num_raw_tab_height">60dp</dimen>
+    <dimen name="app_lock_image_num_size">21dp</dimen>
+    <dimen name="app_lock_image_num_size_tab">46dp</dimen>
+    <dimen name="app_lock_use_button_width_tab">400dp</dimen>
+    <dimen name="app_lock_background_gradient_height">552dp</dimen>
+    <dimen name="app_lock_width">320dp</dimen>
+    <dimen name="app_lock_height">488dp</dimen>
+
+    <!-- AppLock drawable(shape_corners_radius_size)-->
+    <dimen name="app_lock_button_corners">12px</dimen>
+
+    <dimen name="common_button_corners_radius">4dp</dimen>
+    <dimen name="common_button_stroke_width">1px</dimen>
+    <dimen name="common_button_backyellow_corners_radius">24dp</dimen>
+
+    <dimen name="widget_tap_center_line_height">4dp</dimen>
+    <dimen name="widget_tap_bottom_height">48dp</dimen>
+
+    <!-- 便利設定2 -->
+    <dimen name="confirm_use_widget_button_width">264dp</dimen>
+    <dimen name="confirm_use_widget_button_width_tab">400dp</dimen>
+    <dimen name="confirm_use_widget_button_height">48dp</dimen>
+    <dimen name="confirm_use_widget_height">25dp</dimen>
+    <dimen name="confirm_use_widget_image_width">240dp</dimen>
+    <dimen name="confirm_use_widget_image_width_tab">600dp</dimen>
+    <dimen name="confirm_use_widget_image_height">180dp</dimen>
+    <dimen name="confirm_use_widget_image_height_tab">360dp</dimen>
+    <dimen name="confirm_use_widget_push_width">78dp</dimen>
+    <dimen name="confirm_use_widget_push_height">133dp</dimen>
+    <dimen name="confirm_use_widget_dialog_width">57dp</dimen>
+    <dimen name="confirm_use_widget_dialog_height">48dp</dimen>
+    <dimen name="confirm_use_widget_data_width">90dp</dimen>
+    <dimen name="confirm_use_widget_data_height">89dp</dimen>
+    <dimen name="confirm_use_widget_wallet_width">95dp</dimen>
+    <dimen name="confirm_use_widget_wallet_height">88dp</dimen>
+
+    <dimen name="widget_big_preference_widget_design_image_width">154dp</dimen>
+    <dimen name="widget_big_preference_widget_design_image_height">108dp</dimen>
+    <dimen name="widget_big_preference_widget_design_image_width_sw320dp">124dp</dimen>
+    <dimen name="widget_big_preference_widget_design_image_height_sw320dp">92dp</dimen>
+    <dimen name="widget_big_preference_widget_design_image_back_width_sw320dp">128dp</dimen>
+    <dimen name="widget_big_preference_widget_design_image_back_height_sw320dp">96dp</dimen>
+    <dimen name="widget_big_preference_widget_design_widget_big_item_title_height">48dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_summy_width">40dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_seekbar_height">4dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_seekbar_control_size">16dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_seekbar_layout_height">56dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_item_title_height">48dp</dimen>
+    <dimen name="widget_big_config_help_button_height">48dp</dimen>
+    <dimen name="preference_widget_select_background_radius">2dp</dimen>
+    <dimen name="preference_widget_category_layout_height">48dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">58dp</dimen>
+    <dimen name="toolbar_notification_width">32dp</dimen>
+    <dimen name="toolbar_notification_height">32dp</dimen>
+    <dimen name="toolbar_notification_count_width">20dp</dimen>
+    <dimen name="toolbar_notification_count_height">20dp</dimen>
+    <dimen name="toolbar_close_width">24dp</dimen>
+    <dimen name="toolbar_close_height">24dp</dimen>
+    <dimen name="toolbar_prev_width">24dp</dimen>
+    <dimen name="toolbar_prev_height">24dp</dimen>
+
+    <!-- パスコード入力 -->
+    <dimen name="applock_input_circle_shape_size">12dp</dimen>
+    <dimen name="applock_input_circle_size">24dp</dimen>
+    <dimen name="applock_input_circle_stroke_width">1dp</dimen>
+    <dimen name="applock_key_row_layout_height">74dp</dimen>
+    <dimen name="applock_ten_key_size">56dp</dimen>
+    <dimen name="applock_description_height">66dp</dimen>
+    <dimen name="applock_tablet_width">375dp</dimen>
+    <dimen name="applock_tablet_height">647dp</dimen>
+    <dimen name="applock_tablet_margin_horizen">28dp</dimen>
+    <dimen name="applock_cancel_text_height">24dp</dimen>
+
+    <!-- ウィジェット1x1 -->
+    <dimen name="widget_small_width">64dp</dimen>
+    <dimen name="widget_small_height">72dp</dimen>
+    <dimen name="widget_small_title_area_height">14dp</dimen>
+    <dimen name="widget_small_nickname_text_size">6dp</dimen>
+    <dimen name="widget_small_abolish_title_text_size">6dp</dimen>
+    <dimen name="widget_small_label_text_size">4dp</dimen>
+    <dimen name="widget_small_update_area_height">12dp</dimen>
+    <dimen name="widget_small_update_date_text_size">4dp</dimen>
+    <dimen name="widget_small_update_date_suffix_text_size">4dp</dimen>
+    <dimen name="widget_small_value_area_height">23dp</dimen>
+    <dimen name="widget_small_value_text_size">9dp</dimen>
+    <dimen name="widget_small_value_unit_text_size">5dp</dimen>
+
+    <!-- ウィジェット1x1 設定画面 -->
+    <dimen name="widget_small_config_design_image_width">94dp</dimen>
+    <dimen name="widget_small_config_design_image_height">117dp</dimen>
+
+    <!-- ウィジェットnxn 設定画面 -->
+    <dimen name="widget_big_config_draghandle_width">24dp</dimen>
+    <dimen name="widget_big_config_draghandle_height">24dp</dimen>
+    <dimen name="widget_big_config_draghandle_margin_right">30dp</dimen>
+    <dimen name="widget_big_config_account_cate_settings_width">24dp</dimen>
+    <dimen name="widget_big_config_account_cate_settings_height">24dp</dimen>
+    <dimen name="widget_big_config_account_row_height">78dp</dimen>
+    <dimen name="widget_big_config_item_row_height">78dp</dimen>
+    <dimen name="widget_big_config_footer_height">48dp</dimen>
+
+    <!-- ウィジェットnxn -->
+    <dimen name="widget_big_header_height">30dp</dimen>
+    <dimen name="widget_big_nickname_width">116dp</dimen>
+    <dimen name="widget_big_button_switch_width">16dp</dimen>
+    <dimen name="widget_big_button_switch_height">16dp</dimen>
+    <dimen name="widget_big_button_refresh_width">16dp</dimen>
+    <dimen name="widget_big_button_refresh_height">16dp</dimen>
+    <dimen name="widget_big_button_setting_width">16dp</dimen>
+    <dimen name="widget_big_button_setting_height">16dp</dimen>
+    <dimen name="widget_big_list_date_height">12dp</dimen>
+    <dimen name="widget_big_update_text_size">9dp</dimen>
+    <dimen name="widget_big_value_unit_text_size">9dp</dimen>
+    <dimen name="widget_big_list_failure_dims_icon_width">20dp</dimen>
+    <dimen name="widget_big_list_failure_dims_icon_height">20dp</dimen>
+    <dimen name="widget_big_list_itemvalue_height">30dp</dimen>
+    <dimen name="widget_big_list_itemvalue_traffic_total_height">44dp</dimen>
+
+    <!-- ドロワー -->
+    <dimen name="drawer_width">271dp</dimen>
+    <dimen name="drawer_auto_update_width">80dp</dimen>
+    <dimen name="drawer_auto_update_height">24dp</dimen>
+    <dimen name="drawer_auto_update_radius">2dp</dimen>
+    <dimen name="drawer_divider_height">8dp</dimen>
+    <dimen name="drawer_header_icon_size">24dp</dimen>
+    <dimen name="drawer_item_icon_size">24dp</dimen>
+    <dimen name="drawer_item_add_account_icon_size">16dp</dimen>
+    <dimen name="drawer_item_height">44dp</dimen>
+    <dimen name="drawer_account_item_height">72dp</dimen>
+    <dimen name="drawer_account_select_icon_size">44dp</dimen>
+
+    <dimen name="servicelist_h1_title_height">46dp</dimen>
+    <integer name="servicelist_accordion_duration">300</integer>
+    <dimen name="servicelist_accordion_button_width">24dp</dimen>
+    <dimen name="servicelist_accordion_button_height">24dp</dimen>
+    <integer name="servicelist_accordion_button_rotation">-180</integer>
+    <dimen name="servicelist_accordion_folding_flame_margintop">-2dp</dimen>
+    <dimen name="servicelist_accordion_folding_flame_background_top">-2dp</dimen>
+    <dimen name="servicelist_accordion_folding_flame_background_radius">2dp</dimen>
+    <dimen name="servicelist_accordion_folding_flame_background_stroke_width">1dp</dimen>
+    <dimen name="servicelist_accordion_folding_main_divider_margin">1dp</dimen>
+    <dimen name="servicelist_accordion_folding_main_weblink_height">32dp</dimen>
+    <dimen name="servicelist_accordion_folding_main_weblink_image_width">24dp</dimen>
+    <dimen name="servicelist_accordion_folding_main_weblink_image_height">24dp</dimen>
+    <dimen name="servicelist_accordion_folding_main_button_height">36dp</dimen>
+
+    <dimen name="servicelist_tab_title_area_width">0dp</dimen>
+    <integer name="servicelist_tab_title_area_weight">5</integer>
+    <dimen name="servicelist_tab_title_height">48dp</dimen>
+    <dimen name="servicelist_tab_title_select_line_width">4dp</dimen>
+    <dimen name="servicelist_tab_content_area_width">0dp</dimen>
+    <integer name="servicelist_tab_content_area_weight">9</integer>
+    <integer name="servicelist_tab_content_list_alpha">0</integer>
+    <dimen name="servicelist_tab_content_button_width">0dp</dimen>
+    <integer name="servicelist_tab_content_button_weight">1</integer>
+    <dimen name="servicelist_tap_content_weblink_height">24dp</dimen>
+    <dimen name="servicelist_tap_content_weblink_image_width">24dp</dimen>
+    <dimen name="servicelist_tap_content_weblink_image_height">24dp</dimen>
+    <integer name="servicelist_tab_title_duration">300</integer>
+    <integer name="servicelist_tab_content_duration">300</integer>
+    <dimen name="servicelist_tab_title_select_background_right">-2dp</dimen>
+    <dimen name="servicelist_tab_title_select_background_right_radius">2dp</dimen>
+
+    <!-- 2段階認証 -->
+    <dimen name="two_step_accept_checkbox_width">32dp</dimen>
+    <dimen name="two_step_accept_checkbox_height">32dp</dimen>
+    <dimen name="two_step_accept_tab_layout_width">375dp</dimen>
+    <dimen name="two_step_accept_tab_layout_dialog_width">355dp</dimen>
+    <dimen name="two_step_accept_tab_layout_height">709dp</dimen>
+    <dimen name="two_step_accept_tab_bottom_shadow">3dp</dimen>
+    <dimen name="two_step_accept_tab_top_shadow">1dp</dimen>
+    <dimen name="two_step_accept_tab_right_left_shadow">2dp</dimen>
+    <dimen name="two_step_accept_tab_rectangle_radius">1dp</dimen>
+    <dimen name="home_two_step_accept_separater">18dp</dimen>
+    <dimen name="home_two_step_accept_checkbox_separater">12dp</dimen>
+    <dimen name="home_two_step_cancle_text_size">17dp</dimen>
+    <dimen name="home_two_step_backgound_layout_height">8dp</dimen>
+    <dimen name="home_two_step_footer_layout_height">48dp</dimen>
+    <dimen name="two_step_line_spacing_18dp">6dp</dimen>
+
+    <!-- ヒント -->
+    <dimen name="hint_width">276dp</dimen>
+
+    <dimen name="mail_service_setting_commonly_used_services_title">48dp</dimen>
+    <dimen name="mail_service_setting_all_menu_text_height">46dp</dimen>
+    <integer name="mail_service_setting_accordion_duration">300</integer>
+    <dimen name="mail_service_setting_accordion_button_width">24dp</dimen>
+    <dimen name="mail_service_setting_accordion_button_height">24dp</dimen>
+    <integer name="mail_service_setting_accordion_button_rotation">-180</integer>
+    <dimen name="mail_service_setting_accordion_image_width">24dp</dimen>
+    <dimen name="mail_service_setting_accordion_image_height">24dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_flame_margintop">-2dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_flame_background_top">-2dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_flame_background_radius">2dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_flame_background_stroke_width">1dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_main_divider_margin">1dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_main_weblink_height">32dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_main_weblink_image_width">24dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_main_weblink_image_height">24dp</dimen>
+    <dimen name="mail_service_setting_accordion_folding_main_button_height">36dp</dimen>
+    <integer name="mail_service_setting_commonly_used_services_column_count">2</integer>
+    <integer name="mail_service_setting_commonly_used_services_row_count">3</integer>
+    <dimen name="mail_service_setting_commonly_used_services_background_radius">2dp</dimen>
+    <dimen name="mail_service_setting_commonly_used_services_item_vertical_divider_width">1dp
+    </dimen>
+    <dimen name="mail_service_setting_commonly_used_services_item_height">130dp</dimen>
+    <integer name="mail_service_setting_commonly_used_services_item_column">1</integer>
+    <integer name="mail_service_setting_commonly_used_services_item_row">1</integer>
+    <dimen name="mail_service_setting_commonly_used_services_item_image_width">48dp</dimen>
+    <dimen name="mail_service_setting_commonly_used_services_item_image_height">48dp</dimen>
+    <dimen name="mail_service_setting_commonly_used_services_item_title_height">36dp</dimen>
+    <dimen name="mail_service_setting_content_toptitle_height">46dp</dimen>
+
+    <integer name="mail_service_setting_tab_commonly_used_services_column_count">4</integer>
+    <integer name="mail_service_setting_tab_commonly_used_services_row_count">2</integer>
+    <dimen name="mail_service_setting_tab_title_area_width">0dp</dimen>
+    <integer name="mail_service_setting_tab_title_area_weight">5</integer>
+    <dimen name="mail_service_setting_tab_title_height">48dp</dimen>
+    <dimen name="mail_service_setting_tab_title_select_line_width">4dp</dimen>
+    <dimen name="mail_service_setting_tab_content_area_width">0dp</dimen>
+    <integer name="mail_service_setting_tab_content_area_weight">9</integer>
+    <integer name="mail_service_setting_tab_content_list_alpha">0</integer>
+    <dimen name="mail_service_setting_tab_content_button_width">0dp</dimen>
+    <integer name="mail_service_setting_tab_content_button_weight">1</integer>
+    <dimen name="mail_service_setting_tap_content_weblink_height">24dp</dimen>
+    <dimen name="mail_service_setting_tap_content_weblink_image_width">24dp</dimen>
+    <dimen name="mail_service_setting_tap_content_weblink_image_height">24dp</dimen>
+    <integer name="mail_service_setting_tab_title_duration">300</integer>
+    <integer name="mail_service_setting_tab_content_duration">300</integer>
+    <dimen name="mail_service_setting_tab_title_select_background_right">-2dp</dimen>
+    <dimen name="mail_service_setting_tab_title_select_background_right_radius">2dp</dimen>
+
+    <dimen name="supportservicelist_h1_title_height">46dp</dimen>
+    <integer name="supportservicelist_accordion_duration">300</integer>
+    <dimen name="supportservicelist_accordion_image_width">24dp</dimen>
+    <dimen name="supportservicelist_accordion_image_height">24dp</dimen>
+    <dimen name="supportservicelist_accordion_button_width">24dp</dimen>
+    <dimen name="supportservicelist_accordion_button_height">24dp</dimen>
+    <integer name="supportservicelist_accordion_button_rotation">-180</integer>
+    <dimen name="supportservicelist_accordion_folding_flame_margintop">-2dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_flame_background_top">-2dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_flame_background_radius">2dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_flame_background_stroke_width">1dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_main_divider_margin">1dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_main_weblink_height">32dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_main_weblink_image_width">24dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_main_weblink_image_height">24dp</dimen>
+    <dimen name="supportservicelist_accordion_folding_main_button_height">36dp</dimen>
+
+    <dimen name="supportservicelist_tab_title_area_width">0dp</dimen>
+    <integer name="supportservicelist_tab_title_area_weight">5</integer>
+    <dimen name="supportservicelist_tab_title_height">48dp</dimen>
+    <dimen name="supportservicelist_tab_title_select_line_width">4dp</dimen>
+    <dimen name="supportservicelist_tab_content_area_width">0dp</dimen>
+    <integer name="supportservicelist_tab_content_area_weight">9</integer>
+    <integer name="supportservicelist_tab_content_list_alpha">0</integer>
+    <dimen name="supportservicelist_tab_content_button_width">0dp</dimen>
+    <integer name="supportservicelist_tab_content_button_weight">1</integer>
+    <dimen name="supportservicelist_tap_content_weblink_height">24dp</dimen>
+    <dimen name="supportservicelist_tap_content_weblink_image_width">24dp</dimen>
+    <dimen name="supportservicelist_tap_content_weblink_image_height">24dp</dimen>
+    <integer name="supportservicelist_tab_title_duration">300</integer>
+    <integer name="supportservicelist_tab_content_duration">300</integer>
+    <dimen name="supportservicelist_tab_title_select_background_right">-2dp</dimen>
+    <dimen name="supportservicelist_tab_title_select_background_right_radius">2dp</dimen>
+
+    <!-- 6000_サポート画面 -->
+    <integer name="support_have_any_problems_weight_sum">3</integer>
+    <dimen name="support_have_any_problems_item_image_width">48dp</dimen>
+    <dimen name="support_have_any_problems_item_image_height">48dp</dimen>
+    <dimen name="support_have_any_problems_item_width">0dp</dimen>
+    <dimen name="support_have_any_problems_frame_width">98dp</dimen>
+    <dimen name="support_have_any_problems_frame_height">90dp</dimen>
+    <integer name="support_have_any_problems_item_weight">1</integer>
+    <dimen name="support_title_height">46dp</dimen>
+    <dimen name="support_content_twoline_item_height">24dp</dimen>
+    <dimen name="support_content_link_height">48dp</dimen>
+    <dimen name="support_faq_link_icon_width">24dp</dimen>
+    <dimen name="support_faq_link_icon_height">24dp</dimen>
+    <dimen name="support_service_item_image_width">48dp</dimen>
+    <dimen name="support_service_item_image_height">48dp</dimen>
+    <integer name="support_questtion_two_rows_lines">2</integer>
+    <dimen name="support_main_button_height">36dp</dimen>
+
+    <dimen name="support_tab_have_any_problems_frame_width">200dp</dimen>
+    <dimen name="support_tab_have_any_problems_frame_height">78dp</dimen>
+    <dimen name="support_tab_recently_many_faq_layout_width">0dp</dimen>
+    <integer name="support_tab_recently_many_faq_layout_weight">1</integer>
+    <dimen name="support_tab_faq_divider_area_width">8dp</dimen>
+    <dimen name="support_tab_faq_divider_width">1dp</dimen>
+    <dimen name="support_tab_attention_faq_layout_width">0dp</dimen>
+    <integer name="support_tab_attention_faq_layout_weight">1</integer>
+    <integer name="support_tab_service_item_area_weight_sum">3</integer>
+    <integer name="support_tab_contact_us_area_weight_sum">2</integer>
+    <dimen name="support_tab_contact_us_divider_width">1dp</dimen>
+    <dimen name="support_tab_contact_us_item_width">0dp</dimen>
+    <integer name="support_tab_contact_us_item_weight">1</integer>
+    <dimen name="support_tab_service_item_width">0dp</dimen>
+    <integer name="support_tab_service_item_weight">1</integer>
+    <dimen name="support_tab_main_button_width">311dp</dimen>
+    <dimen name="support_tab_main_button_text_width">343dp</dimen>
+
+    <!-- Feedback & Toast -->
+    <dimen name="feedback_toast_height">56dp</dimen>
+
+    <!-- WebView -->
+    <dimen name="network_error_layout_width">311dp</dimen>
+    <dimen name="network_error_icon_width">112dp</dimen>
+    <dimen name="network_error_icon_height">112dp</dimen>
+    <dimen name="webview_network_error_spacing_20dp">6dp</dimen>
+
+    <!-- 通知 -->
+    <dimen name="navigation_top_notice_icon_size">24dp</dimen>
+    <dimen name="notice_hint_title_close_icon_size">24dp</dimen>
+    <dimen name="notice_hint_divider_height">1dp</dimen>
+    <dimen name="notice_item_icon_size">20dp</dimen>
+    <dimen name="notice_item_unread_icon_size">8dp</dimen>
+    <dimen name="notice_item_height">111dp</dimen>
+    <dimen name="notice_arrow_width">14dp</dimen>
+    <dimen name="notice_arrow_height">10dp</dimen>
+    <dimen name="notice_popup_radius">3dp</dimen>
+    <dimen name="notice_badge_size">20dp</dimen>
+    <dimen name="notice_icon_layout_width">58dp</dimen>
+    <dimen name="notice_icon_layout_height">35dp</dimen>
+    <dimen name="notice_badge_layout_vertical_margin">-8dp</dimen>
+    <dimen name="notice_badge_layout_horizontal_margin">-10dp</dimen>
+    <dimen name="notice_layout_tablet_width">351dp</dimen>
+    <dimen name="notice_badge_layout_radius">10dp</dimen>
+
+    <!-- 0500_ショップ画面 -->
+    <dimen name="shop_docomo_shop_card_image_height">36dp</dimen>
+    <dimen name="shop_docomo_online_shop_card_image_width">207dp</dimen>
+    <dimen name="shop_docomo_online_shop_card_image_height">113dp</dimen>
+    <dimen name="shop_docomo_onlineprocedure_card_image_width">207dp</dimen>
+    <dimen name="shop_docomo_onlineprocedure_card_image_height">113dp</dimen>
+    <integer name="shop_tab_myshop_weight_sum">2</integer>
+    <integer name="shop_tab_myshop_weight">1</integer>
+    <dimen name="shop_tab_divider_width">1dp</dimen>
+    <integer name="shop_tab_docomo_online_shop_card_weight">1</integer>
+    <integer name="shop_tab_docomo_onlineprocedure_card_weight">1</integer>
+
+    <!-- アカウント切替 -->
+    <dimen name="account_switch_list_item_height">68dp</dimen>
+    <dimen name="account_switch_list_title_height">48dp</dimen>
+
+    <!-- アプリ廃止 -->
+    <dimen name="app_abolish_width">311dp</dimen>
+    <dimen name="app_abolish_icon_size">112dp</dimen>
+    <dimen name="app_abolish_button_width">264dp</dimen>
+
+    <!-- 便利設定_ウィジェット -->
+    <dimen name="convenient_confirm_use_widget_image_width">230dp</dimen>
+    <dimen name="convenient_confirm_use_widget_image_height">200dp</dimen>
+    <dimen name="convenient_confirm_use_widget_tablet_image_width">356dp</dimen>
+    <dimen name="convenient_confirm_use_widget_tablet_image_height">310dp</dimen>
+    <dimen name="convenient_confirm_use_widget_tablet_text_width">576dp</dimen>
+    <dimen name="convenient_confirm_use_widget_set_button_width">264dp</dimen>
+    <dimen name="convenient_confirm_use_widget_tab_set_button_width">400dp</dimen>
+    <dimen name="convenient_confirm_use_widget_caution_layout_height">48dp</dimen>
+    <dimen name="convenient_confirm_use_widget_skip_layout_height">48dp</dimen>
+    <dimen name="confirm_use_widget_content_line_spacing_extra">6dp</dimen>
+
+
+    <!-- パスコードロック回数上限 -->
+    <dimen name="app_lock_max_try_image_height">112dp</dimen>
+    <dimen name="app_lock_max_try_image_width">112dp</dimen>
+    <dimen name="app_lock_max_try_contents_area_width">331dp</dimen>
+    <dimen name="app_lock_max_try_contents_area_tab_width">576dp</dimen>
+    <dimen name="app_lock_max_try_description_line_spacing_extra">6dp</dimen>
+    <dimen name="app_lock_max_try_description_line_spacing_extra_tab">8dp</dimen>
+    <dimen name="app_lock_max_try_button_width">264dp</dimen>
+    <dimen name="app_lock_max_try_button_tab_width">400dp</dimen>
+
+    <!-- ボタン共通 -->
+    <dimen name="button_large_height">36dp</dimen>
+    <dimen name="button_small_height">36dp</dimen>
+    <dimen name="button_small_width_240dp">240dp</dimen>
+    <dimen name="button_small_width_287dp">287dp</dimen>
+
+    <!-- Common/Title -->
+    <dimen name="common_title_with_open_close_toggle_height">48dp</dimen>
+    <dimen name="common_title_with_open_close_icon_size">24dp</dimen>
+    <dimen name="common_title_with_open_close_arrow_size">24dp</dimen>
+
+    <!-- Customer/Card/Information -->
+    <dimen name="customer_card_information_divider_width">1dp</dimen>
+
+    <!-- Customer/Card/Plan -->
+    <dimen name="customer_card_plan_divider_width">1dp</dimen>
+
+    <!-- Customer/Card/Contract -->
+    <dimen name="customer_card_contract_divider_width">1dp</dimen>
+    <dimen name="customer_card_contract_divider_height">1dp</dimen>
+
+    <!-- Customer/Card/Device -->
+    <dimen name="customer_card_device_divider_width">1dp</dimen>
+    <dimen name="customer_card_device_title_width">93dp</dimen>
+    <dimen name="customer_card_device_text_link_width">94dp</dimen>
+    <dimen name="customer_card_device_image_size">80dp</dimen>
+
+    <!-- アプリについて -->
+    <dimen name="about_app_icon_size">90dp</dimen>
+    <dimen name="about_app_button_width">328dp</dimen>
+    <dimen name="about_app_button_height">44dp</dimen>
+    <dimen name="about_app_weblink_icon_size">44dp</dimen>
+
+    <!-- 初回ローディング -->
+    <dimen name="loading_circle_size">8dp</dimen>
+    <dimen name="loading_circle_offset">0dp</dimen>
+    <dimen name="loading_circle_bounce">-8dp</dimen>
+    <dimen name="loading_circle_down">4dp</dimen>
+    <dimen name="loading_circle_repeat">-2dp</dimen>
+    <dimen name="loading_circle_wave">-8dp</dimen>
+    <dimen name="loading_view_height">1dp</dimen>
+    <dimen name="loading_wave_height">50dp</dimen>
+    <dimen name="loading_all_circle_width">56dp</dimen>
+
+    <!-- アカウント入力ダイアログ -->
+    <dimen name="dialog_input_account_width">355dp</dimen>
+    <dimen name="dialog_input_account_spacing_16dp">4dp</dimen>
+    <dimen name="dialog_input_account_mask_button_width">48dp</dimen>
+    <dimen name="dialog_input_account_mask_button_height">24dp</dimen>
+    <dimen name="dialog_input_account_footer_button_height">45dp</dimen>
+    <dimen name="focus_view_size">1dp</dimen>
+    <dimen name="main_text_line_spacing_extra">8dp</dimen>
+    <dimen name="footer_height">48dp</dimen>
+
+    <!-- ボタン -->
+    <dimen name="common_button_height">36dp</dimen>
+
+    <!-- あなたへのおすすめコンテンツ -->
+    <dimen name="card_recommend_item_title_margin_left">28dp</dimen>
+    <dimen name="card_recommend_item_title_margin_right">28dp</dimen>
+    <dimen name="card_recommend_item_bitmap_width">124dp</dimen>
+    <dimen name="card_recommend_item_bitmap_height">106dp</dimen>
+    <dimen name="card_recommend_item_view_arrow_icon_size">24dp</dimen>
+    <dimen name="card_recommend_item_indicator_size_height">8dp</dimen>
+    <dimen name="card_recommend_item_indicator_icon_size_width">6dp</dimen>
+    <dimen name="card_recommend_item_indicator_icon_size_height">6dp</dimen>
+    <dimen name="card_recommend_item_view_pager_space">4dp</dimen>
+
+    <!-- あなたへのおすすめコンテンツ タブレットサイズ -->
+    <dimen name="card_recommend_item_tablet_title_margin_left">50dp</dimen>
+    <dimen name="card_recommend_item_tablet_title_margin_right">50dp</dimen>
+    <dimen name="card_recommend_item_tablet_bitmap_width">130dp</dimen>
+    <dimen name="card_recommend_item_tablet_bitmap_height">111dp</dimen>
+    <dimen name="top_content_banner_frame_border">0.5dp</dimen>
+
+    <!-- キャンペーン -->
+    <dimen name="card_campaign_height">164dp</dimen>
+    <dimen name="card_campaign_item_area_width">97dp</dimen>
+    <dimen name="card_campaign_item_bitmap_width">89dp</dimen>
+    <dimen name="card_campaign_item_bitmap_height">89dp</dimen>
+    <dimen name="card_campaign_item_title_height">40dp</dimen>
+    <dimen name="card_campaign_item_arrow_icon_size">24dp</dimen>
+    <dimen name="card_campaign_item_view_pager_space">4dp</dimen>
+
+    <!-- ウィジェット -->
+    <dimen name="widget_big_topline_height">4dp</dimen>
+    <dimen name="widget_big_line_height">1dp</dimen>
+    <dimen name="widget_big_button_switch_left_margin">2dp</dimen>
+    <dimen name="widget_big_nickname_text_size">10dp</dimen>
+    <dimen name="widget_big_list_divider_height">1dp</dimen>
+    <dimen name="widget_big_date_top_padding">3dp</dimen>
+    <dimen name="widget_big_date_bottom_padding">4dp</dimen>
+    <dimen name="widget_big_date_horizontal_padding">4dp</dimen>
+    <dimen name="widget_big_itemvalue_vertical_padding">10dp</dimen>
+    <dimen name="widget_big_itemvalue_horizontal_padding">8dp</dimen>
+    <dimen name="widget_big_title_right_margin">16dp</dimen>
+    <dimen name="widget_big_switch_width">42dp</dimen>
+    <dimen name="widget_big_value_width">80dp</dimen>
+    <dimen name="widget_big_failure_padding">8dp</dimen>
+    <dimen name="widget_big_failure_text_vertical_padding">10dp</dimen>
+    <dimen name="widget_big_failure_text_horizontal_padding">8dp</dimen>
+    <dimen name="widget_big_config_text_line_spacing">4dp</dimen>
+    <dimen name="widget_big_preference_widget_trans_height">66dp</dimen>
+    <dimen name="widget_big_preference_widget_help_button_height">48dp</dimen>
+    <dimen name="widget_big_preference_widget_help_button_left_padding">48dp</dimen>
+    <dimen name="widget_big_preference_account_text_line_spacing_extra">7dp</dimen>
+    <dimen name="widget_big_preference_account_layout_height">96dp</dimen>
+    <dimen name="widget_big_config_account_setting_text_line_spacing_extra">16dp</dimen>
+    <dimen name="widget_big_config_account_account_text_line_spacing_extra">8dp</dimen>
+
+    <dimen name="widget_condig_transmission_left_padding">40dp</dimen>
+    <dimen name="widget_condig_transmission_right_padding">50dp</dimen>
+
+    <dimen name="widget_small_horizontal_padding">2dp</dimen>
+    <dimen name="widget_small_top_padding">2dp</dimen>
+    <dimen name="widget_small_bottom_padding">1dp</dimen>
+    <dimen name="widget_small_value_top_margin">-3dp</dimen>
+
+    <dimen name="widget_setting_my_docomo_app_show_account_items_description2_icon_height">14dp</dimen>
+    <dimen name="widget_setting_my_docomo_app_show_account_items_description2_icon_width">14dp</dimen>
+    <dimen name="widget_setting_my_docomo_app_sort_show_account_items_description2_icon_height">14dp</dimen>
+    <dimen name="widget_setting_my_docomo_app_sort_show_account_items_description2_icon_width">14dp</dimen>
+
+    <!-- データ更新中ダイアログ -->
+    <dimen name="custom_update_dialog_width">290dp</dimen>
+    <dimen name="custom_update_dialog_height">160dp</dimen>
+
+    <!-- お知らせ -->
+    <dimen name="notice_line_spacing_extra_24">6dp</dimen>
+    <dimen name="notice_line_spacing_extra_20">8dp</dimen>
+    <dimen name="notice_footer_button_height">48dp</dimen>
+
+    <!-- オープンソースライセンス情報 -->
+    <dimen name="oss_description_line_spacing_extra_16dp">5dp</dimen>
+
+    <!-- TODO: その他削除不可な定義 -->
+    <dimen name="app_lock_ten_key_size">64dp</dimen>
+    <!-- TODO:共通ボタンの削除が困難 -->
+    <dimen name="button_inset_vertical_material">0dp</dimen>
+    <dimen name="button_inset_horizontal_material">0dp</dimen>
+    <dimen name="button_padding_vertical_material">14dp</dimen>
+    <dimen name="control_corner_material">4dp</dimen>
+    <dimen name="button_padding_horizontal_material">16dp</dimen>
+</resources>

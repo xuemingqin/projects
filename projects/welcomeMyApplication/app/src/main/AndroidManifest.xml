@@ -9,26 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeStartAct">
+        <activity android:name=".activity.WelcomeGuideActivity">
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
 
         </activity>
-        <activity android:name=".CityActivity">
+        <activity android:name=".activity.CityActivity">
 
         </activity>
 
-        <activity android:name=".welcomeGuide">
+        <activity android:name=".activity.WelcomeStartAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AllCategoryActivity"></activity>
-        <activity android:name=".MyloginActivity"></activity>
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".activity.AllCategoryActivity"></activity>
+        <activity android:name=".activity.MyloginActivity"></activity>
+        <activity android:name=".activity.RegisterActivity"></activity>
 
     </application>
 

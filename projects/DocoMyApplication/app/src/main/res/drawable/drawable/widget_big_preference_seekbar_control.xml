@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <size
+                android:width="@dimen/widget_big_preference_widget_trans_seekbar_control_size"
+                android:height="@dimen/widget_big_preference_widget_trans_seekbar_control_size"/>
+            <gradient
+                android:startColor="@color/common_blue"
+                android:endColor="@color/common_blue"/>
+        </shape>
+    </item>
+</selector>

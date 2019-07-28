@@ -44,7 +44,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/content7"
+            android:text="content7"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="36dp"
             android:textSize="12sp"
@@ -89,7 +89,7 @@
                   android:layout_height="match_parent"
                   android:textSize="12sp"
                   android:textFontWeight="3"
-                  android:text="@string/content8"
+                  android:text="content8"
 
                   />
           </LinearLayout>
@@ -128,7 +128,7 @@
           <TextView
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:text="@string/content9"
+              android:text="content9"
               android:layout_marginLeft="32dp"
               android:layout_marginTop="44dp"
               android:textSize="12sp"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择"
+            android:layout_margin="15dp"
+            android:textColor="@color/normal_orange"
+            android:id="@+id/tvchoice"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvchoice"
+            android:drawableLeft="@drawable/ozuijing"
+            android:layout_centerVertical="true"
+            android:background="@drawable/main_search_search_shape"
+            android:layout_margin="10dp"
+            android:hint="输入商户名、地点"
+            android:drawablePadding="15dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/silverGray"
+                />
+            <include layout="@layout/where"></include>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/silverGray"
+                />
+            <include layout="@layout/where2"></include>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/silverGray"
+                android:text="趣味生活"
+                android:textColor="@color/darkGray"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

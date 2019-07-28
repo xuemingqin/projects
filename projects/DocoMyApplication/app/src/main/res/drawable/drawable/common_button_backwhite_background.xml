@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Tap 押下時-->
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true">
+        <!--<color android:color="#00ff00" />-->
+
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item android:drawable="@drawable/common_button_backwhite_background_normal"/>
+            <item android:drawable="@drawable/common_button_background_tap_appendimage"/>
+        </layer-list>
+    </item>
+
+    <!--Disabled 無効時-->
+    <item
+        android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle">
+            <corners android:radius="@dimen/common_button_corners_radius" />
+            <solid android:color="@color/common_button_backwhite_background_disabled" />
+            <stroke
+                android:width="@dimen/common_button_stroke_width"
+                android:color="@color/common_button_backwhite_background_stroke_disabled"/>
+        </shape>
+    </item>
+
+    <!--Normal 通常時-->
+    <!--Visited 訪問済み-->
+    <item android:drawable="@drawable/common_button_backwhite_background_normal"/>
+</selector>

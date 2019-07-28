@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!-- デザインガイドライン Style Color (カラー) 共通色 -->
+    <color name="common_yellow">#fdd000</color>
+    <color name="common_orange">#fda400</color>
+    <color name="common_docomo_red">#cc0033</color>
+    <color name="common_dark_green">#009688</color>
+    <color name="common_green">#329ab5</color>
+    <color name="common_blue">#0080ff</color>
+    <color name="common_dark_blue">#0070c9</color>
+    <color name="common_black">#333333</color>
+    <color name="common_black_Alpha">#25333333</color>
+    <color name="common_dark_gray">#757575</color>
+    <color name="common_gray">#cccccc</color>
+    <color name="common_x_gray">#666666</color>
+    <color name="common_light_gray">#e7e7e7</color>
+    <color name="common_most_light_gray">#fafafa</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_selected_black">#000000</color>
+    <color name="common_transParent">#00000000</color>
+    <color name="common_background">#fcfcfc</color>
+    <color name="common_background_tap_reaction_1">#33cf102d</color>
+    <color name="common_background_tap_reaction_2">#e5e5e5</color>
+    <color name="common_background_divider">#e5e5e5</color>
+    <color name="common_background_warning">#f5f5f5</color>
+
+    <!-- デザインガイドライン Style Color (カラー) d Point Color -->
+    <color name="dpoint_regular">#b03b40</color>
+    <color name="dpoint_silver">#6e6e73</color>
+    <color name="dpoint_bronze">#915a3d</color>
+    <color name="dpoint_gold">#996c2f</color>
+
+    <!-- d Market Color -->
+    <color name="dmarket_d_tv">#df062f</color>
+    <color name="dmarket_d_book">#6e9628</color>
+    <color name="dmarket_d_anime">#eb5528</color>
+    <color name="dmarket_d_game">#144191</color>
+    <color name="dmarket_d_hits">#c36e96</color>
+    <color name="dmarket_d_shopping">#d72832</color>
+    <color name="dmarket_d_fashion">#4a4a4a</color>
+    <color name="dmarket_d_music">#e64191</color>
+    <color name="dmarket_d_travel">#21348c</color>
+    <color name="dmarket_d_delivery">#d78113</color>
+    <color name="dmarket_d_kids">#f6ab00</color>
+    <color name="dmarket_d_magazine">#009141</color>
+    <color name="dmarket_d_app">#0078c3</color>
+    <color name="dmarket_d_gourmet">#a50f23</color>
+    <color name="dmarket_d_health">#14a6a0</color>
+    <color name="dmarket_d_living">#fa646a</color>
+    <color name="dmarket_d_photo">#3892b9</color>
+    <color name="dmarket_d_enjoy_pass">#5bbc2e</color>
+    <color name="dmarket_d_job">#00bac7</color>
+    <color name="dmarket_d_others">#000000</color>
+
+    <!-- チュートリアル -->
+    <color name="opacity_30_common_black">#4D333333</color>
+
+    <!-- 利用規約 -->
+    <color name="term_agree_button_gray">#e2e1e1</color>
+    <color name="term_agree_button_active">#797979</color>
+    <color name="term_agree_button_pressed">#26000000</color>
+
+    <color name="common_ripple">#4c000000</color>
+    <color name="common_appendimage_tap">#26000000</color>
+    <color name="common_button_stroke">#0c000000</color>
+    <color name="common_button_backblue_textcolor_tap">#d8d8d8</color>
+    <color name="common_button_backblue_background_disabled">#400080ff</color>
+    <color name="common_button_backwhite_textcolor_tap">#005faa</color>
+    <color name="common_button_backwhite_textcolor_disabled">#d8dbf6</color>
+    <color name="common_button_backwhite_background_disabled">#40ffffff</color>
+    <color name="common_button_backwhite_background_stroke_disabled">#400070c9</color>
+    <color name="common_button_backgray_textcolor_tap">#d8d8d8</color>
+    <color name="common_button_backgray_background_disabled">#40757575</color>
+    <color name="common_button_backyellow_textcolor_tap">#2b2b2b</color>
+    <color name="common_button_backyellow_textcolor_disabled">#999999</color>
+    <color name="common_button_backyellow_background_disabled">#40fdd000</color>
+
+    <color name="widget_big_item_title">#006ecc</color>
+    <color name="widget_tap_item_title">#006ecc</color>
+    <color name="widget_big_draghandle">#c6c6c6</color>
+    <color name="widget_big_dark_background">#000000</color>
+    <color name="widget_big_dark_background_tap">#4affffff</color>
+
+    <color name="widget_small_dark_background">#000000</color>
+
+    <!-- AppLock -->
+    <color name="app_lock_background_start_color">#33FBBC61</color>
+    <color name="app_lock_background_end_color">#33ffffff</color>
+    <color name="app_lock_link_color">#0070C9</color>
+    <color name="app_lock_button_color">#26000000</color>
+
+    <!-- ドロワー -->
+    <color name="drawer_daccount_text">#999999</color>
+    <color name="drawer_scrim_color">#000000</color>
+
+    <color name="support_content_title_background">#7be7e7e7</color>
+
+    <!-- FeedBack & Toast -->
+    <color name="feedback_toast_background">#323232</color>
+    <color name="feedback_toast_border">#000000</color>
+
+    <!-- 2段階 -->
+    <color name="home_two_step_authorization_background">#CCFCFCFC</color>
+    <color name="home_two_step_cancle_text_color">#0076FF</color>
+
+    <!-- アカウント認証 -->
+    <color name="authentication_tab_layout_background">#66cccccc</color>
+
+    <!-- WebView -->
+    <color name="menu_title_disable_next_link">#979797</color>
+
+    <!-- 2000_料金 -->
+    <color name="fee_detail_total_traffic_line_overview">#7be7e7e7</color>
+
+    <color name="upper_tab_indicator_shadow_black">#40000000</color>
+
+    <!-- メール設定画面 -->
+    <color name="mail_service_setting_content_toptitle_background">#7be7e7e7</color>
+
+    <!-- サービス画面 -->
+    <color name="servicelist_title_background">#7be7e7e7</color>
+
+    <!-- コメント記載の上、ここより上に追加すること。
+         既に定義済みの色と同一の色を定義する場合には意図をチケットに記載 -->
+
+    <!-- ここから下は17d1以下 今後全削除。 -->
+    <color name="docomo_red">#cf0a2c</color>
+
+    <color name="app_gray">#666666</color>
+    <color name="app_white">#ffffff</color>
+    <color name="app_background">#fcfcfc</color>
+    <color name="app_black">#231815</color>
+    <color name="app_transParent">#00000000</color>
+
+    <color name="color_black">#333333</color>
+    <color name="divider_background">#e5e5e5</color>
+    <color name="banner_frame_border">#dcdcdc</color>
+    <color name="banner_layout_background">#e5e5e5</color>
+    <color name="navigation_drawer_background">#fcfcfc</color>
+    <color name="warning_and_ten_key_background">#f5f5f5</color>
+
+    <color name="widget_light_gray">#cccccc</color>
+    <color name="widget_preview_background_light">#f5f5f5</color>
+    <color name="widget_gray">#333333</color>
+    <color name="widget_preview_background_dark">#333333</color>
+    <color name="widget_preview_title_light">@color/app_gray</color>
+    <color name="widget_preview_title_dark">@color/app_white</color>
+
 </resources>

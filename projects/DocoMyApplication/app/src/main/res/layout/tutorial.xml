@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tutorial_indicator"
+        android:layout_marginBottom="2dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tutorial_skip_link"
+        style="@style/TutorialSkiplink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_vertical_24dp"
+        android:layout_above="@+id/tutorial_indicator"
+        android:alpha="0.0"
+        android:text="@string/tutorial_skip" />
+
+    <LinearLayout
+        android:id="@+id/tutorial_indicator"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/tutorial_page_indicator_width"
+        android:layout_height="@dimen/tutorial_page_indicator_height"
+        android:layout_marginBottom="@dimen/margin_vertical_33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_1"
+                android:background="@drawable/tutorial_footer_view_circle_no_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_2"
+                android:background="@drawable/tutorial_footer_view_circle_no_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_3"
+                android:background="@drawable/tutorial_footer_view_circle_no_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tutorial_indicator_over"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/tutorial_page_indicator_width"
+        android:layout_height="@dimen/tutorial_page_indicator_height"
+        android:layout_marginBottom="@dimen/margin_vertical_33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_over_1"
+                android:background="@drawable/tutorial_footer_view_circle_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"
+                android:alpha="0.0"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/margin_vertical_8dp"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_over_2"
+                android:background="@drawable/tutorial_footer_view_circle_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"
+                android:alpha="0.0"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/tutorial_indicator_width"
+            android:layout_height="@dimen/tutorial_indicator_height">
+            <View
+                android:id="@+id/tutorial_indicator_circle_over_3"
+                android:background="@drawable/tutorial_footer_view_circle_active"
+                android:layout_width="@dimen/tutorial_indicator_content_width"
+                android:layout_height="@dimen/tutorial_indicator_content_height"
+                android:layout_centerInParent="true"
+                android:alpha="0.0"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

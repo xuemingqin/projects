@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/servicelist_accordion_folding_flame_background_top">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/servicelist_accordion_folding_flame_background_radius" />
+            <solid android:color="@color/common_white" />
+            <stroke
+                android:width="@dimen/servicelist_accordion_folding_flame_background_stroke_width"
+                android:color="@color/common_gray" />
+        </shape>
+    </item>
+</layer-list>
