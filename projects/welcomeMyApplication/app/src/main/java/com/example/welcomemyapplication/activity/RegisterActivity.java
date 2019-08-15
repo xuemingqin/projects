@@ -144,8 +144,8 @@ public class RegisterActivity extends Activity implements View.OnClickListener{
             Toast.makeText ( this,"登录失败",Toast.LENGTH_SHORT ).show ();
         }
     }
-    
-    /**
+
+    /**ひ
      * 隐藏软键盘(只适用于Activity，不适用于Fragment)
      */
     public void hideSoftKeyboard(Activity activity) {

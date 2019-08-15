@@ -21,7 +21,7 @@ public class WelcomeActivity extends Activity{
             public void run() {
 
                 if (SharedUtils.getWelcomeBoolean ( getApplicationContext ( ) )) {
-                    startActivity ( new Intent ( getApplicationContext ( ), FirstAccountLoginActivity.TutorialActivity.class ) );
+                    startActivity ( new Intent ( getApplicationContext ( ), TutorialActivity.class ) );
                 } else {
                     startActivity( new Intent( WelcomeActivity.this, FirstAccountLoginActivity.class ) );
                 }

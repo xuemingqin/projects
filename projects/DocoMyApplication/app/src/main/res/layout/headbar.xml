@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+<TextView
+    android:id="@+id/textbal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ホーム"
+    android:gravity="center"
+    android:padding="@dimen/margin_horizontal_10dp"
+    android:textColor="@color/warning_and_ten_key_background"
+    />
+
+</LinearLayout>

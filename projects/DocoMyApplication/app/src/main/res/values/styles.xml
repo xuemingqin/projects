@@ -2,9 +2,9 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/common_white</item>
-        <item name="colorPrimaryDark">#2a2a2a</item>
-        <item name="colorAccent">@color/common_blue</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/common_black</item>
         <item name="android:textColor">@color/app_black</item>
         <item name="android:colorBackground">@color/app_background</item>

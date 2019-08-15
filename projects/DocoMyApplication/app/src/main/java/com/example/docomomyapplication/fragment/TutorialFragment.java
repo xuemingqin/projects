@@ -14,22 +14,21 @@ import com.example.docomomyapplication.R;
 import com.example.docomomyapplication.activity.FirstAccountLoginActivity;
 
 public class TutorialFragment extends Fragment{
-     private static String TUTORIAL_FRAGMEN="tutorial";
+     private static final String TUTORIAL_PAGE="tutorial";
     private View mMainView;
     private int mNum;
     public static TutorialFragment newInstance(int position){
      TutorialFragment fragment=new TutorialFragment();
         Bundle bundle = new Bundle( );
-        bundle.putInt( TUTORIAL_FRAGMEN,position);
+        bundle.putInt( TUTORIAL_PAGE,position);
         fragment.setArguments( bundle );
         return fragment;
     }
 
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        mNum=getArguments().getInt( TUTORIAL_FRAGMEN );
+        mNum=getArguments().getInt( TUTORIAL_PAGE );
         mMainView=null;
         switch (mNum){
             case 0:

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="colorPrimary">#915a3d</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+
     <!-- デザインガイドライン Style Color (カラー) 共通色 -->
     <color name="common_yellow">#fdd000</color>
     <color name="common_orange">#fda400</color>
