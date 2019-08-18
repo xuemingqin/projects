@@ -18,7 +18,8 @@
             android:drawableLeft="@drawable/back"
             android:text="便利設定"
             android:gravity="center"
-            />
+            android:id="@+id/back"
+            ></TextView>
 
     </LinearLayout>
 </LinearLayout>

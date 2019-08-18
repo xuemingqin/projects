@@ -50,7 +50,7 @@ public class RetrofitFragment extends Fragment{
         @Override
         //重写handleMessage方法,根据msg中what的值判断是否执行后续操作
         public void handleMessage(Message msg) {
-            if(msg.what == 0x123)
+            if(msg.what == 0x125)
             {
                 rebaseAdapter.notifyDataSetChanged();
             }
@@ -67,7 +67,7 @@ public class RetrofitFragment extends Fragment{
 
                 if (response.isSuccessful()){
                     list_re=response.body();
-                    mHandler.sendEmptyMessage(0x123);
+                    mHandler.sendEmptyMessage(0x125);
                 }
             }
 

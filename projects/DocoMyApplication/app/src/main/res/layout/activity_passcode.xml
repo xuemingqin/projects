@@ -13,6 +13,7 @@
         >
 
         <TextView
+            android:id="@+id/tv_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/back"
@@ -53,6 +54,7 @@
             />
 
         <Button
+            android:id="@+id/setting"
             android:layout_width="264dp"
             android:layout_height="@dimen/margin_vertical_48dp"
             android:layout_marginTop="@dimen/margin_horizontal_32dp"
@@ -66,6 +68,7 @@
             />
 
         <TextView
+            android:id="@+id/superlog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_vertical_49dp"
@@ -76,6 +79,7 @@
             />
 
         <TextView
+            android:id="@+id/skip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_vertical_28dp"

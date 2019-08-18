@@ -27,6 +27,11 @@ public class CustomFragment extends Fragment{
     private ArrayList<String> imageTitle;
     private MyImageLoader myImageLoader;
 
+    public static CustomFragment newInstance() {
+        CustomFragment fragment = new CustomFragment();
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

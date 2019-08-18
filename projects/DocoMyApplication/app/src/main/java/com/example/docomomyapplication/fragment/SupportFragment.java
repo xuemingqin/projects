@@ -16,7 +16,7 @@ import com.example.docomomyapplication.adapter.NetTabPagerAdapter;
 public class SupportFragment extends Fragment{
     private ViewPager viewPager;
     private TabLayout tabLayout;
-    NetTabPagerAdapter adapter;
+
 
     public static SupportFragment newInstance() {
         SupportFragment fragment = new SupportFragment();
@@ -44,7 +44,7 @@ public class SupportFragment extends Fragment{
 //        for (Fragment fragment : getFragmentManager().getFragments()) {
 //            getFragmentManager().beginTransaction().remove(fragment).commit();
 //        }
-        adapter = new NetTabPagerAdapter( getFragmentManager() );
+        NetTabPagerAdapter adapter = new NetTabPagerAdapter( getActivity().getSupportFragmentManager() );
         adapter.addFragment( new OkhttpFragment(),"Okhttp");
         adapter.addFragment( new HttpURLConnectionFragment(),"HttpURLConnection" );
         adapter.addFragment( new VolleyFragment(),"Volley");

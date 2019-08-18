@@ -30,12 +30,12 @@ import com.example.docomomyapplication.fragment.SetingFragment;
 import com.example.docomomyapplication.fragment.SupportFragment;
 import com.youth.banner.listener.OnBannerListener;
 
+import java.util.Set;
 import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity{
 
     private BottomNavigationView bottomNavigationView;
-    private ViewPager viewPager;
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
 
@@ -55,56 +55,44 @@ public class MainActivity extends AppCompatActivity{
 
 
         bottomNavigationView=(BottomNavigationView) findViewById( R.id.bottomNavigation );
-        viewPager=(ViewPager)findViewById( R.id.viewpager );
-        // textView=(TextView)findViewById( R.id.textbal ) ;
-        setupViewPager(viewPager);
         bottomNavigationView.setOnNavigationItemSelectedListener( listener );
-        viewPager.addOnPageChangeListener( new ViewPager.OnPageChangeListener( ){
-           @Override
-           public void onPageScrolled(int i, float v, int i1) {
+//        viewPager.addOnPageChangeListener( new ViewPager.OnPageChangeListener( ){
+//           @Override
+//           public void onPageScrolled(int i, float v, int i1) {
+//
+//           }
+//
+//           @Override
+//           public void onPageSelected(int i) {
+//               switch (i){
+//                   case 0:
+//                       bottomNavigationView.setSelectedItemId( R.id.home );
+//                       String title = bottomNavigationView.getMenu().getItem( i ).getTitle().toString();
+//                       toolbar.setTitle( title );
+//                       break;
+//                   case 1:
+//                       bottomNavigationView.setSelectedItemId( R.id.custom );
+//                       toolbar.setTitle( "お客様情報" );
+//                       break;
+//                   case 2:
+//                       bottomNavigationView.setSelectedItemId( R.id.mail_setting );
+//                       toolbar.setTitle("設定" );
+//                       break;
+//                   case 3:
+//                       bottomNavigationView.setSelectedItemId( R.id.support );
+//                       toolbar.setTitle( "サポート" );
+//                       break;
+//               }
+//
+//           }
+//
+//           @Override
+//           public void onPageScrollStateChanged(int i) {
+//
+//           }
+//       } );
+        addFragment(HomeFragment.newInstance());//最初はadd
 
-           }
-
-           @Override
-           public void onPageSelected(int i) {
-               switch (i){
-                   case 0:
-                       bottomNavigationView.setSelectedItemId( R.id.home );
-                       String title = bottomNavigationView.getMenu().getItem( i ).getTitle().toString();
-                       toolbar.setTitle( title );
-                       break;
-                   case 1:
-                       bottomNavigationView.setSelectedItemId( R.id.custom );
-                       toolbar.setTitle( "お客様情報" );
-                       break;
-                   case 2:
-                       bottomNavigationView.setSelectedItemId( R.id.mail_setting );
-                       toolbar.setTitle("設定" );
-                       break;
-                   case 3:
-                       bottomNavigationView.setSelectedItemId( R.id.support );
-                       toolbar.setTitle( "サポート" );
-                       break;
-               }
-
-           }
-
-           @Override
-           public void onPageScrollStateChanged(int i) {
-
-           }
-       } );
-
-    }
-
-
-    private void setupViewPager(ViewPager viewPager) {
-      BottomNavPagerAdapter adapter = new BottomNavPagerAdapter(getSupportFragmentManager());
-      adapter.addFragment( new HomeFragment() );
-      adapter.addFragment( new CustomFragment() );
-      adapter.addFragment( new SetingFragment() );
-      adapter.addFragment( SupportFragment.newInstance() );
-      viewPager.setAdapter( adapter );
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener listener=new BottomNavigationView.OnNavigationItemSelectedListener( ){
@@ -112,21 +100,31 @@ public class MainActivity extends AppCompatActivity{
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
             switch (menuItem.getItemId( )){
                 case R.id.home:
-                  viewPager.setCurrentItem( 0 );
+                    replaceFragment(HomeFragment.newInstance());
                     return true;
                 case R.id.custom:
-                   viewPager.setCurrentItem( 1 );
+                    replaceFragment(CustomFragment.newInstance());
                     return true;
                 case R.id.mail_setting:
-                  viewPager.setCurrentItem( 2 );
+                    replaceFragment( SetingFragment.newInstance());
                     return true;
                 case R.id.support:
-                    viewPager.setCurrentItem( 3 );
+                    replaceFragment(SupportFragment.newInstance());
                     return true;
             }
 
             return false;
         }
     };
+
+    private void addFragment(Fragment newFragment){
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.add(R.id.fragment_container, newFragment).commit();
+    }
+
+    private void replaceFragment(Fragment newFragment) {
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragment_container, newFragment).commit();//R.id.fragment_containerのを代える
+    }
 
 }

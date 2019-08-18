@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.docomomyapplication">
-  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:usesCleartextTraffic="true"
@@ -13,27 +13,28 @@
 
 
         <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-       <activity android:name=".activity.FirstAccountLoginActivity">
-       </activity>
-      <activity android:name=".activity.TutorialActivity">
+        <activity android:name=".activity.FirstAccountLoginActivity">
+        </activity>
+        <activity android:name=".activity.TutorialActivity">
 
-      </activity>
+        </activity>
         <activity android:name=".activity.TutorialNoticeActivity">
 
 
         </activity>
         <activity android:name=".activity.PassCodeActivity">
         </activity>
-<activity android:name=".activity.MainActivity">
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
-
-</activity>
+        <activity android:name=".activity.MainActivity">
+        </activity>
+        <activity android:name=".activity.WebViewActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -28,6 +28,11 @@ public class SetingFragment extends Fragment{
     private ArrayList<String> list_path;
     private ArrayList<String> list_title;
 
+    public static SetingFragment newInstance() {
+        SetingFragment fragment = new SetingFragment();
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

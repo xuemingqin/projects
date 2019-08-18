@@ -4,17 +4,22 @@ import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.docomomyapplication.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PassCodeActivity extends Activity {
+public class PassCodeActivity extends Activity  implements View.OnClickListener{
     private ImageView num1, num2,num3,num4,num5,num6,num7,num8,num9, num0,imageView;
+    private Button btnsettinhg;
+    private TextView tv_skip,log, tv_back;
 
 
     @Override
@@ -37,7 +42,16 @@ public class PassCodeActivity extends Activity {
         num7=(ImageView) findViewById( R.id. num7);
         num8=(ImageView) findViewById( R.id. num8);
         num9=(ImageView) findViewById( R.id. num9);
+        log=(TextView)findViewById( R.id.superlog );
         imageView=(ImageView) findViewById( R.id.image);
+        btnsettinhg=(Button)findViewById( R.id.setting);
+        tv_skip=(TextView)findViewById( R.id.skip );
+        tv_back=(TextView)findViewById( R.id.tv_back );
+
+        btnsettinhg.setOnClickListener( this );
+        tv_skip.setOnClickListener( this );
+        tv_back.setOnClickListener( this );
+        log.setOnClickListener( this );
 
         num0.setAlpha( 0.0f );
         num1.setAlpha( 0.0f );
@@ -156,5 +170,30 @@ public class PassCodeActivity extends Activity {
 
         list.add( animator );
         list.add( alpha );
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.setting:
+                Intent intent=new Intent( PassCodeActivity.this,TutorialNoticeActivity.class );
+                startActivity( intent );
+                overridePendingTransition( R.anim.out_to_left,R.anim.in_from_right );
+                break;
+            case  R.id.skip:
+                Intent sk_intent=new Intent( PassCodeActivity.this,MainActivity.class );
+                startActivity( sk_intent );
+                break;
+            case R.id.superlog:
+                Intent intent_web=new Intent( getApplicationContext(), WebViewActivity.class );
+                intent_web.putExtra( "url", "https://id.smt.docomo.ne.jp/src/utility/idpw_lock.html");
+                startActivity( intent_web );
+                break;
+            case R.id.tv_back:
+                finish();
+                break;
+
+        }
+
     }
 }

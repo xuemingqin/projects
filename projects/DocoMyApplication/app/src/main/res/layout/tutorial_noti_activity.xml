@@ -95,6 +95,7 @@
             android:layout_marginTop="@dimen/margin_horizontal_32dp">
 
             <Button
+                android:id="@+id/btn_start"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/shape1"
@@ -126,6 +127,7 @@
             android:textColor="#0070C9"
             android:gravity="center"
             android:layout_marginBottom="@dimen/margin_vertical_48dp"
+            android:id="@+id/care"
 
             />
 
