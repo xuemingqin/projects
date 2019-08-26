@@ -508,7 +508,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../settings.gradle">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -553,7 +553,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -663,7 +663,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="209" />
     <option name="y" value="23" />
     <option name="width" value="1195" />
@@ -830,7 +830,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="23" width="1195" height="716" extended-state="0" />
+    <frame x="209" y="23" width="1195" height="716" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.5056361" side_tool="true" weight="0.18012924" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49114332" visible="true" weight="0.26799652" />
@@ -1380,9 +1381,6 @@
     <entry file="file://$PROJECT_DIR$/../build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1426,6 +1424,9 @@
           <caret line="3" column="73" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="73" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
