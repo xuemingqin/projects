@@ -21,11 +21,10 @@ public class WelcomeActivity extends Activity{
             public void run() {
 
                 if (SharedUtils.getWelcomeBoolean ( getApplicationContext ( ) )) {
-                    startActivity ( new Intent ( getApplicationContext ( ), TutorialActivity.class ) );
+                    startActivity ( new Intent ( getApplicationContext ( ), FirstAccountLoginActivity.class ) );
                 } else {
-                    startActivity( new Intent( WelcomeActivity.this, FirstAccountLoginActivity.class ) );
+                    startActivity( new Intent( WelcomeActivity.this, TutorialActivity.class ) );
                 }
-                SharedUtils.putWelcome ( getApplicationContext (),true );
                 finish ();
 
             }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icon_frequentd_card" android:state_checked="true" android:state_window_focused="false"/>
+    <item android:drawable="@drawable/icon_frequentd_card_used" android:state_checked="false"/>
+    <item android:drawable="@drawable/icon_menu_device_main" android:state_checked="true"/>
+    <item android:drawable="@drawable/icon_menu_device_sub" android:state_checked="true"/>
+    <item android:drawable="@drawable/icon_menu_shop_sub_note" android:state_enabled="true"/>
+    <item android:drawable="@drawable/icon_frequent_online_procedures" android:state_checked="false"/>
+
+
+</selector>

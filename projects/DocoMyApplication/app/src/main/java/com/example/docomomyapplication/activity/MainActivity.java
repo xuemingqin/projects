@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity{
         setContentView( R.layout.activity_main );
         toolbar = findViewById( R.id.tool_bar );
         drawerLayout=findViewById( R.id.drawer_layout );
+//        抽屉式菜单
         setSupportActionBar( toolbar );
         toolbar.setTitle( "ホーム" );
 

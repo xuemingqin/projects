@@ -32,13 +32,13 @@ public class TutorialFragment extends Fragment{
         mMainView=null;
         switch (mNum){
             case 0:
-                mMainView = inflater.inflate( R.layout.activity_zhinan, container, false);
+                mMainView = inflater.inflate( R.layout.tutorial_first, container, false);
                 break;
             case 1:
-                mMainView = inflater.inflate(R.layout.activity_zhinan2, container, false);
+                mMainView = inflater.inflate(R.layout.tutorial_second, container, false);
                 break;
             case 2:
-                mMainView = inflater.inflate(R.layout.activity_zhinan3, container, false);
+                mMainView = inflater.inflate(R.layout.tutorial_thirdly, container, false);
                 setMydocomoViewAction(mMainView);
                 break;
         }

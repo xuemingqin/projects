@@ -90,6 +90,7 @@ public class TutorialNoticeActivity extends Activity{
         animator.setStartDelay( 3850 );
         animator.setDuration( 1500 );
 
+
         ObjectAnimator scale=ObjectAnimator.ofFloat(view,"scaleX",0.7f,1.00f);
         scale.setStartDelay( 3850 );
         scale.setDuration( 1500);

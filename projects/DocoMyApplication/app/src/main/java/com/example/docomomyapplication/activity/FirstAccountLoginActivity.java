@@ -79,12 +79,12 @@ public class FirstAccountLoginActivity extends Activity implements View.OnClickL
 //            webView.goBack( );
 //        } else {
 //            webView.setVisibility( View.GONE );
-////            if ((System.currentTimeMillis( ) - exitTime) > 2000) {
-////                Toast.makeText( getApplicationContext( ), "再按一次退出程序", Toast.LENGTH_SHORT ).show( );
-////                exitTime = System.currentTimeMillis( );
-////            } else {
-////                super.onBackPressed( );
-////            }
+//            if ((System.currentTimeMillis( ) - exitTime) > 2000) {
+//                Toast.makeText( getApplicationContext( ), "再按一次退出程序", Toast.LENGTH_SHORT ).show( );
+//                exitTime = System.currentTimeMillis( );
+//            } else {
+//                super.onBackPressed( );
+//            }
 //        }
 //    }
 

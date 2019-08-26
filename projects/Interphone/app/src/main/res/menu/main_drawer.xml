@@ -40,6 +40,14 @@
 
         </item>
     </group>
+
     <item
+        android:title="その他">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_app"
+                android:title="このアプリについて" />
+        </menu>
+    </item>
 
 </menu>

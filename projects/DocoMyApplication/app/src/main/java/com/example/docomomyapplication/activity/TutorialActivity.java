@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.docomomyapplication.R;
 import com.example.docomomyapplication.adapter.TutorialFragmentPagerAdapter;
+import com.example.docomomyapplication.utils.SharedUtils;
 
 public class TutorialActivity extends AppCompatActivity{
     private ViewPager mViewPager;
@@ -53,17 +54,20 @@ public class TutorialActivity extends AppCompatActivity{
                         mViewPagerIndicator1.setAlpha( 1f );
                         mViewPagerIndicator2.setAlpha( 0f );
                         mViewPagerIndicator3.setAlpha( 0f );
+                        mSkipLink.setVisibility( View.VISIBLE );
                         break;
                     case 1:
                         mViewPagerIndicator1.setAlpha( 0f );
                         mViewPagerIndicator2.setAlpha( 1f );
                         mViewPagerIndicator3.setAlpha( 0f );
+                        mSkipLink.setVisibility( View.VISIBLE  );
 
                         break;
                     case 2:
                         mViewPagerIndicator1.setAlpha( 0f );
                         mViewPagerIndicator2.setAlpha( 0f );
                         mViewPagerIndicator3.setAlpha( 1f );
+                        mSkipLink.setVisibility( View.GONE );
                         break;
                 }
             }
@@ -109,6 +113,7 @@ public class TutorialActivity extends AppCompatActivity{
     public void setScreenTransition(){
         Intent intent = new Intent(getApplicationContext(), FirstAccountLoginActivity.class);
         startActivity(intent);
+        SharedUtils.putWelcome ( getApplicationContext (),true );
         finish();
 
     }
