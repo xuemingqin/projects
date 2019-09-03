@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "408791194763",
+    "firebase_url": "https://codingtest-82d48.firebaseio.com",
+    "project_id": "codingtest-82d48",
+    "storage_bucket": "codingtest-82d48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408791194763:android:fc322b60cf85be54",
+        "android_client_info": {
+          "package_name": "com.itaccess.interphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408791194763-ee43bmq06lufgd513ns2c42rr5e4ebf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnJ06_ixSfb9TcwR_r1uGXFN7mOOVUCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_horizontal_5dp"
+        android:textColor="@color/grey"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_size_x_small"
+        android:text=""/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/client_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_horizontal_8dp"
+            android:layout_alignParentRight="true"
+            android:text="Hello"
+            android:gravity="center"
+            android:background="@drawable/send_msg_normal"
+            android:padding="@dimen/main_footer_view_padding"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_horizontal_5dp"
+            android:textColor="@color/grey"
+            android:layout_toLeftOf="@id/client_message"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_x_small"
+            android:text="am 9:30"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

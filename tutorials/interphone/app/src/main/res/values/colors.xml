@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#AAAAAA</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- common -->
+    <color name="black">#000000</color>
+    <color name="grey">#808080</color>
+    <color name="common_30_grey">#4D808080</color>
+    <color name="common_10_grey">#1A808080</color>
+    <color name="common_blue">#0000ff</color>
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_light_grey">#d3d3d3</color>
+    <color name="common_background">#fcfcfc</color>
+    <color name="common_black">#333333</color>
+    <color name="common_background_divider">#e5e5e5</color>
+    <color name="common_title_background">#CCFCFCFC</color>
+    <!-- Login -->
+    <color name="login_blue">#00acff</color>
+    <color name="login_blue_pressed">#00a1db</color>
+    <color name="login_savepassword_text_hint">#ababab</color>
+    <color name="login_edit_stroke">#CCCCFF</color>
+    <color name="login_edit_gradient_start">#c3c3c3</color>
+    <color name="login_edit_gradient_end">#FFFFFF</color>
+    <!-- 利用規約 -->
+    <color name="term_footer_background">#FFFFEE</color>
+
+    <!-- メイン画面 -->
+    <color name="main_recycler_view_background_color">#f3f3f2</color>
+
+    <!-- 設定画面 -->
+    <color name="setting_recycler_item_background_color">#fdfdfd</color>
+    <color name="seekbar_progress_dodgerblue">#1e90ff</color>
+    <color name="seekbar_progress_secondaryProgress">#FFFFFFFF</color>
+    <color name="call_setting_voice_output_text_selected">#1e90ff</color>
+    <color name="dmarket_d_kids">#f6ab00</color>
+    <color name="dmarket_d_delivery">#d78113</color>
+    <color name="auto_response_content_txt_normal">#915a3d</color>
+    <color name="auto_response_content_txt_pressed">#f6ab00</color>
+    <color name="auto_response_background_color">#4dfda400</color>
+    <color name="auto_response_icon_text_color">#d78113</color>
+    <color name="auto_response_radio_text_black">#99000000</color>
+
+    <!-- 着信画面　-->
+    <color name="receiving_text_active_color">#F200BFFF</color>
+    <color name="receiving_text_un_active_color">#808080</color>
+    <color name="receiving_popwindow_background_color">#80fcfcfc</color>
+    <color name="receiving_popwindow_layout_clicked_color">#4d808080</color>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/receiving_popwindow_background_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_footer_view_height_size"
+        android:background="@color/common_30_grey"/>
+
+    <LinearLayout
+        android:id="@+id/receiving_pop_layout_content_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/talk_image_txt1"
+            style="@style/Common_ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/receiving_auto_answer_txt_1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_footer_view_height_size"
+        android:background="@color/common_30_grey"/>
+
+    <LinearLayout
+        android:id="@+id/receiving_pop_layout_content_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/talk_image_txt2"
+            style="@style/Common_ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/receiving_auto_answer_txt_2" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_footer_view_height_size"
+        android:background="@color/common_30_grey"/>
+
+    <LinearLayout
+        android:id="@+id/receiving_pop_layout_content_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/talk_image_txt3"
+            style="@style/Common_ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/receiving_auto_answer_txt_3" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_footer_view_height_size"
+        android:background="@color/common_30_grey"/>
+
+    <LinearLayout
+        android:id="@+id/receiving_pop_cancel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/talk_image_txt4"
+            style="@style/Common_MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/receiving_text_active_color"
+            android:gravity="center"
+            android:text="@string/receiving_popwindow_btn" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_footer_view_height_size"
+        android:background="@color/common_30_grey"/>
+
+
+</LinearLayout>

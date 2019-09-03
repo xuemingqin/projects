@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">interphone</string>
+    <!-- error -->
+    <string name="dialog_error">エラー</string>
+    <string name="dialog_error_close">閉じる</string>
+    <string name="dialog_error_confirm">確認する</string>
+    <string name="dialog_error_cancel">キャンセル</string>
+    <string name="dialog_error_again">再読み込み</string>
+    <string name="dialog_error_can_not_connect_network">ネットワークに接続されていないため認証できませんでした
+\n\nネットワークの接続状況をご確認ください
+    </string>
+
+    <!-- Login -->
+    <string name="activity_login_title">ログイン</string>
+    <string name="activity_login_user_id">ログインID:</string>
+    <string name="activity_login_user_password">パスワード:</string>
+    <string name="activity_login_btn_login">ログインする</string>
+    <string name="activity_login_link_forget">ID・パスワードをお忘れの場合</string>
+    <string name="activity_login_progress_message">ログイン中...</string>
+    <string name="activity_login_btn_login_error">ログインIDまたはパスワードが間違っています</string>
+
+    <!-- Term -->
+    <string name="term_title">利用規約</string>
+    <string name="term_button_title">同意する</string>
+    <string name="app_term_privacy_policy_detail">
+お客様がこのアプリケーションを利用されるにあたり、携帯電話内の次の情報を外部送信します
+\n\n■外部送信する情報
+\n①　アカウント識別子（当社がサービス契約者及びサイトユーザーの契約回線又はdアカウントに対して付与する任意の識別番号です。なお、アカウント識別子自体にお客様のお名前、ご住所、電話番号、電子メールアドレスなどの個人情報は含まれません）、端末識別ID、ご利用端末情報
+\n②　dアカウント情報
+\n③　本アプリケーションの操作・設定状況
+\n\n■利用目的
+\n①　お知らせ機能の提供
+\n②　My docomoサイトへの認証
+\n③　サービス改善、不具合修正、データ分析
+\n\n■第三者提供等の有無
+\n上記の情報は第三者に送信・提供されることはありません
+
+        \n株式会社ＮＴＴドコモ（以下「ドコモ」といいます）がお客様に提供するMy docomoアプリ（以下「本アプリ」といいます）は、このMy docomoアプリご利用規約（以下「本規約」といいます）ならびにその他の本アプリのご利用にあたり適用される契約約款、ｄアカウント規約、My docomoご利用規約、その他のご利用規約およびその他注意事項（以下、総称して「本規約等」といいます）に従って提供されます。お客様が本規約等に同意されない場合、本アプリをご利用いただくことはできません。なお、お客様が本アプリを起動し、画面上に表示される本規約に同意する旨のボタンを押したときに、本規約等に基づく本アプリの利用契約がドコモとお客様との間で成立し、その効力を発生するものとします。
+
+\n\n1. 本アプリの概要
+\n(1) 本アプリは、ドコモよりｄアカウント規約に基づき発行されるdアカウントのID およびパスワード（IDとパスワードとを併せて以下「ID/パスワード」といいます）を取得し、My docomoご利用規約に基づきMy docomoを利用しているお客様に対し、次の機能を提供するアプリです。
+
+\n[1] My docomoサイトで掲載される情報のうち、ドコモが別に定める一部の情報（ご契約情報、料金関連情報、dポイントクラブ関連情報などを指し、以下総称して「各種情報」といいます）を、My docomoサイトから取得し、表示する機能
+\n[2] 各種情報のうち、ドコモが別に定める情報をグラフで表示する機能
+\n[3] 各種情報のうち、お客様が選択した情報をウィジェットで表示する機能
+\n[4] My docomoサイトその他ドコモが別に定めるウェブサイトへアクセスする機能
+\n[5] ドコモの商品・サービス・キャンペーン・イベント等のご案内を行う機能
+\n[6] その他前各号に付帯関連する機能
+
+\n(2) 本アプリのご利用にあたっては、dアカウントのIDが本アプリ内に保存されます。また、お客様が、パスワードを保存する設定（以下「パスワード保存設定」といいます）を選択された場合には、パスワードも本アプリ内に保存され、お客様の設定により、本アプリの起動時または設定した頻度において自動で前号[1]で定める各種情報の取得を行います。当該自動取得の設定は、本アプリインストール後の初期設定時に有効／無効を選択いただくことができ、初期設定後も本アプリ内の設定画面より変更いただくことができます。頻度の設定も本アプリ内の設定画面より設定いただくことができますが、初期値は24時間毎となっております。なお、本アプリをインストールした本アプリ対応端末（第2項第1号で定義）を海外でご利用される際にも、本アプリ対応端末において海外でのご利用ができない設定にしている場合を除き、自動で各種情報の取得を行い、通信料が発生しますので、ご注意ください。
+\n(3) パスワード保存設定を選択している場合であっても、dアカウントのID／パスワードを変更された場合には、変更後のdアカウントのID／パスワードを本アプリに設定いただくまでは、自動での各種情報の取得等、一部の機能の利用ができなくなります。
+\n(4) パスワード保存設定することにより、ドコモオンライン手続き等、ｄアカウントのID／パスワードの入力が省略することができる機能もありますが、パスワード保存設定を選択している場合であっても、ドコモが別に定める機能のご利用にあたっては、ご利用の際に別途dアカウントのID／パスワードのご入力が必要となる場合がございます。
+\n(5) パスワード保存設定をしていないお客様は、本アプリ起動後、お客様自身でパスワードを入力し、手動により各種情報の取得を行う必要があります。なお、この場合、第1号[3]に定める機能（以下「ウィジェット表示機能」といいます）により表示される情報は、手動で取得された情報に限られます。
+\n(6) ウィジェット表示機能をご利用の場合、パスワード保存設定の有無にかかわらず、お客様が本アプリ上にご登録いただいているいずれかのアカウントに係るdアカウントのID／パスワードを入力のうえ、ウィジェット表示機能のご利用設定を行い、表示情報を選択いただく必要があります。なお、ウィジェット表示機能のご利用設定後は、ウィジェット表示機能（表示情報の設定・変更を含みます）は、dアカウントのID／パスワードによる認証を行うことなくご利用いただけます。
+
+\n\n2. ご利用条件
+\n(1) 本アプリのご利用には、Android OSを搭載する端末のうち、ドコモが別に定める本アプリに対応する端末（以下「本アプリ対応端末」といいます）が必要です。なお、本アプリ対応端末によっては、第1項第1号[2]または[3]に定める機能の利用にあたって、各種情報が正常に表示されない場合等があります。
+\n(2) 本アプリのご利用にあたっては、ドコモが別に定める手続きに従い、事前にdアカウントのID／パスワードの取得およびMy docomoの利用登録をしていただく必要があります。なお、ドコモビジネスプレミアクラブに加入されているお客様は、本アプリはご利用いただけません。また、法人のお客様でドコモビジネスプレミアクラブに加入していないお客様でも一部機能の利用ができない場合等がございます。
+\n(3) My docomoサイト、お客様のご契約状況・ご利用状況、通信の状況如何によっては、本アプリにおいて各種情報を正常に取得できない、または正常に表示できない場合があります。
+\n(4) 当社は、本アプリのバージョンアップを行う場合があります。この場合、お客様が本サービス対応端末上の本アプリのバージョンアップを行うまでの間、本アプリの全部または一部の機能が利用できない場合があります。
+
+    </string>
+
+    <!-- ペアリンク -->
+    <string name="pair_link_title">ペアリンク</string>
+    <string name="pair_link_capture_caution">QRコードをカメラ画面の読み取り範囲に\n写してスキャンナーします</string>
+    <string name="pair_link_authentication_message">認証中...</string>
+    <string name="pair_link_authentication_error_message">認証できない</string>
+
+    <!-- メイン -->
+    <string name="main_title">インターホン-メイン</string>
+    <string name="main_login_dialog_presentation_message">ログインしてください</string>
+    <string name="main_login_dialog_presentation_button">ログイン画面へ</string>
+    <string name="main_recycler_view_server_called_title">呼び出しがありました。</string>
+    <string name="main_reload_message">ロード中...</string>
+    <string name="main_un_update_message">更新なし</string>
+
+    <!-- メニュー -->
+    <string name="menu_home">ホーム</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_term_guide">利用ガイド</string>
+    <string name="menu_term">利用規約</string>
+    <string name="menu_user_info">個人情報取扱</string>
+    <string name="menu_inquiry">お問合せ</string>
+    <string name="menu_title_other">その他</string>
+    <string name="menu_pair_link">ペアリンク</string>
+    <string name="menu_app">このアプリについて</string>
+
+    <!-- 設定画面 -->
+    <string name="setting_title">設定</string>
+    <string-array name="setting_recyclerview_title_array">
+        <item>header</item>
+        <item>通話設定</item>
+        <item>着信音</item>
+        <item>ニックネーム登録</item>
+        <item>自動応答設定</item>
+        <item>header</item>
+        <item>パスワード変更</item>
+    </string-array>
+    <string-array name="setting_recyclerview_title_array_sec">
+        <item>header</item>
+        <item>通話設定</item>
+        <item>着信音</item>
+        <item>ニックネーム変更</item>
+        <item>自動応答設定</item>
+        <item>header</item>
+        <item>パスワード変更</item>
+    </string-array>
+
+    <!-- 通話設定画面 -->
+    <string name="call_setting_title">通話設定</string>
+    <string name="call_setting_call_volume_title">通話音量</string>
+    <string name="call_setting_micro_volume_title">マイク音量</string>
+    <string name="call_setting_voice_output_title">音声出力先</string>
+    <string name="call_setting_voice_output_speaker">スピーカーを選択</string>
+    <string name="call_setting_voice_output_headph">ヘッドフォンを選択</string>
+    <string-array name="call_setting_voice_output_type">
+        <item>スピーカー</item>
+        <item>ヘッドフォン</item>
+    </string-array>
+
+    <!-- 着信音画面 -->
+    <string name="ringtone_dialog_title">着信音</string>
+    <string name="ringtone_dialog_btn_ok">OK</string>
+    <string name="ringtone_dialog_btn_cancel">キャンセル</string>
+
+    <!--自動応答設定 -->
+    <string name="auto_response_title">自動応答設定</string>
+    <string name="auto_response_icon_text">自動応答設定\n何れかを選んでください</string>
+    <string name="auto_response_content_1">今呼出中です。\nしばらくお待ちください</string>
+    <string name="auto_response_content_2">今、取り込んでおりますので\n後ほど来てください。</string>
+    <string name="auto_response_content_3">どうぞお入りください</string>
+    <string name="auto_response_btn_set">決定</string>
+    <string name="auto_response_btn_release">解除</string>
+    <string name="auto_respon_progress_message">設定の保存中...</string>
+    <string name="auto_respon_intercom_title">ドアホン</string>
+    <string name="auto_respon_lobby_title">ロビー</string>
+
+    <!-- ニックネーム -->
+    <string name="nick_name_login_title">ニックネーム登録</string>
+    <string name="nick_name_change_title">ニックネーム変更</string>
+    <string name="nick_name">ニックネーム:</string>
+    <string name="nick_name_now">現在のニックネーム:</string>
+    <string name="nick_name_new">新しいニックネーム:</string>
+    <string name="nick_name_btn_login">登録する</string>
+    <string name="nick_name_btn_change">変更する</string>
+    <string name="nick_name_btn_cancel">キャンセル</string>
+    <string name="nick_name_login_progress_message">ニックネーム登録中...</string>
+    <string name="nick_name_change_progress_message">ニックネーム変更中...</string>
+    <string name="nick_name_change_btn_error">現在と違うニックネームを入力してください</string>
+
+    <!-- パスワード変更 -->
+    <string name="activity_password_change_title">パスワード変更</string>
+    <string name="activity_password_change_now">現在のパスワード:</string>
+    <string name="activity_password_change_new">新しいパスワード:</string>
+    <string name="activity_password_change_conform">新しいパスワードの確認:</string>
+    <string name="activity_password_change_button">パスワードを変更する</string>
+    <string name="activity_password_change_error_now">現在のパスワードの入力が間違っています</string>
+    <string name="activity_password_change_error_length">パスワードを4文字以上に入力してください</string>
+    <string name="activity_password_change_error_equal">新しいパスワードと確認パスワードが一致しません</string>
+
+    <!-- お知らせ一覧 -->
+    <string name="notice_list_title">お知らせ一覧</string>
+    <string name="notice_webview_title">お知らせ</string>
+
+    <!-- WebView -->
+      <!-- 利用ガイド -->
+    <string name="webview_term_guide_title">利用ガイド</string>
+      <!-- 利用規約 -->
+    <string name="webview_term_title">利用規約</string>
+      <!-- 個人情報取扱 -->
+    <string name="webview_user_info_title">個人情報取扱</string>
+      <!-- アプリについて -->
+    <string name="webview_about_app_title">アプリについて</string>
+    <string name="webview_netowork_error">ネットワークに接続されていないため\nこの画面を表示することができません\n\nネットワークへの接続をご確認の上、再度お試しください</string>
+    <string name="webview_other_error">この画面を表示することができません\n\nしばらく時間をおいて、再度お試しください</string>
+
+    <!-- 着信画面 -->
+    <string name="receiving_title">ロビー着信中</string>
+    <string name="receiving_title_open_txt">解錠</string>
+    <string name="receiving_title_quiet_txt">静音</string>
+    <string name="receiving_title_un_quiet_txt">発音</string>
+    <string name="receiving_title_talk_txt">通話</string>
+    <string name="receiving_title_auto_txt">自動応答</string>
+    <string name="receiving_title_end_txt">終了</string>
+    <string name="receiving_popwindow_btn">キャンセル</string>
+    <string name="receiving_auto_answer_txt_1">今呼出中です。\nしばらくお待ちください</string>
+    <string name="receiving_auto_answer_txt_2">今、取り込んでおりますので\n後ほど来てください</string>
+    <string name="receiving_auto_answer_txt_3">どうぞお入りください</string>
+    <string name="receiving_auto_entrance_answer_txt_1">玄関前に置いてください</string>
+    <string name="receiving_auto_entrance_answer_txt_2">玄関前のボックスに入れてください</string>
+
+    <!-- アプリについて -->
+    <string name="about_title">アプリについて</string>
+    <string name="about_app_name_title">アプリ名(ロゴ)：</string>
+    <string name="about_app_name_content">1942_10FW_IoTインターホン</string>
+    <string name="about_version_title">アプリバージョン：</string>
+    <string name="about_version_content">0.0.0</string>
+    <string name="about_company_title">パブリッシャーなどの企業名(ロゴ)：</string>
+    <string name="about_company_content">アイティアクセス株式会社</string>
+    <string name="about_light_title">コピーライト表示：</string>
+    <string name="about_light_content">Copyright © 2019 IT Access All Rights Reserved.</string>
+    <string name="about_app_deadline_title">アプリ有効期限表示：</string>
+    <string name="about_app_deadline_content">2019/01/01</string>
+    <string name="about_qr_code_title">QRコード読み取り案内：</string>
+    <string name="about_button_pair_link">ペアリンク画面へ</string>
+
+    <!-- 問い合わせ -->
+    <string name="inquiry_title">問い合わせ</string>
+    <string name="inquiry_content">サービス提供事業者へお問い合わせください</string>
+
+</resources>

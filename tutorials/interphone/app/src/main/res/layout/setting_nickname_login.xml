@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_horizontal_32dp"
+        android:layout_marginBottom="@dimen/margin_vertical_8dp"
+        style="@style/Common_MainText"
+        android:text="@string/nick_name" />
+
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/LoginEdittext"
+        android:inputType="text"
+        android:imeOptions="actionGo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical_64dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/nickname_login"
+            style="@style/NicknameBtn"
+            android:layout_marginHorizontal="@dimen/margin_horizontal_24dp"
+            android:text="@string/nick_name_btn_login" />
+
+        <Button
+            android:id="@+id/cancel_login"
+            style="@style/NicknameBtn"
+            android:layout_marginHorizontal="@dimen/margin_horizontal_24dp"
+            android:text="@string/nick_name_btn_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

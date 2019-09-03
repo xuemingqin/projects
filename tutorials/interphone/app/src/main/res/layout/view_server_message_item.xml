@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_horizontal_5dp"
+        android:textColor="@color/grey"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_size_x_small"
+        android:text=""/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/server_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_server_0"
+                android:layout_margin="@dimen/margin_horizontal_8dp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/server_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/server_icon"
+                android:text=""
+                android:autoLink="all"
+                android:gravity="center"
+                android:background="@drawable/receive_msg_normal"
+                android:padding="@dimen/main_footer_view_padding"/>
+
+            <LinearLayout
+                android:id="@+id/server_image_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/server_icon"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_x_small"
+                    android:layout_margin="@dimen/margin_horizontal_5dp"
+                    android:text="@string/main_recycler_view_server_called_title"/>
+
+                <ImageView
+                    android:id="@+id/server_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_horizontal_5dp"
+            android:textColor="@color/grey"
+            android:layout_toRightOf="@id/content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_x_small"
+            android:text="am 9:30"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

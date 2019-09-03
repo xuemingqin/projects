@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_setting" />
+        <item
+            android:id="@+id/menu_term_guide"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_term_guide" />
+        <item
+            android:id="@+id/menu_term"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_term" />
+        <item
+            android:id="@+id/menu_user_info"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_user_info" />
+        <item
+            android:id="@+id/menu_inquiry"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_inquiry" />
+    </group>
+    <item
+        android:title="@string/menu_title_other">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_app"
+                android:title="@string/menu_app" />
+        </menu>
+    </item>
+</menu>

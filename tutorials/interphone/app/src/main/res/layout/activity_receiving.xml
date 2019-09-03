@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_8dp"
+            android:layout_marginLeft="@dimen/margin_horizontal_8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/open_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_vertical_8dp"
+                android:src="@drawable/receiving_lock" />
+
+            <TextView
+                android:id="@+id/open_image_txt"
+                style="@style/Common_ContentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/receiving_title_open_txt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_8dp"
+            android:layout_marginRight="@dimen/margin_horizontal_8dp"
+           android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/quiet_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_vertical_8dp"
+                android:src="@drawable/receiving_quiet" />
+
+            <TextView
+                android:id="@+id/quiet_image_txt"
+                style="@style/Common_ContentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/receiving_title_quiet_txt" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+        <view
+            android:id="@+id/sv_remote_view"
+            class="io.skyway.Peer.Browser.Canvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/common_30_grey"
+            android:layout_centerInParent="true"
+            />
+
+      <include
+          android:id="@+id/receiving_footer_layout"
+          layout="@layout/receiving_footer"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

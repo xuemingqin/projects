@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:color="@color/login_edit_stroke"
+        android:width="@dimen/login_edittext_stroke_width" />
+    <corners android:radius="@dimen/login_edittext_corners_radius" />
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="@color/login_edit_gradient_start"
+        android:endColor="@color/login_edit_gradient_end" />
+</shape>

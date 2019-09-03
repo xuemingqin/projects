@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toool_bar_layout"
+    android:layout_marginTop="@dimen/margin_vertical_32dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_app_name_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_app_name_title"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_app_name_content"
+            style="@style/About_ContentText"
+            android:text="@string/about_app_name_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_24dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_version_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_version_title"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_version_content"
+            style="@style/About_ContentText"
+            android:text="@string/about_version_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_24dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_company_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_company_title"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_company_content"
+            style="@style/About_ContentText"
+            android:text="@string/about_company_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_24dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_light_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_light_title"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_light_content"
+            style="@style/About_ContentText"
+            android:text="@string/about_light_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_24dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_app_deadline_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_app_deadline_title"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_app_deadline_content"
+            style="@style/About_ContentText"
+            android:text="@string/about_app_deadline_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_24dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/about_qr_code_title"
+            style="@style/About_TitleText"
+            android:text="@string/about_qr_code_title"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/about_button_pair_link"
+            android:background="@drawable/btn_cancel"
+            android:paddingHorizontal="@dimen/margin_horizontal_12dp"
+            style="@style/About_ContentText"
+            android:text="@string/about_button_pair_link"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
