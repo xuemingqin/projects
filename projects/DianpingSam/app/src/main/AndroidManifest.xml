@@ -29,6 +29,9 @@
         <activity android:name=".activity.AllCategoryActivity"></activity>
         <activity android:name=".activity.MyloginActivity"></activity>
         <activity android:name=".activity.RegisterActivity"></activity>
+        <activity android:name=".activity.ShopListActivity"></activity>
+        <activity android:name=".activity.SearchTheCity"></activity>
+        <activity android:name=".activity.TuanDetailsActivity"></activity>
 
     </application>
 

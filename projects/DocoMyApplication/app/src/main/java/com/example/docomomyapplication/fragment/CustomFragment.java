@@ -45,9 +45,9 @@ public class CustomFragment extends Fragment{
     private void initView() {
         imagePath = new ArrayList<>( );
         imageTitle = new ArrayList<>( );
-        imagePath.add( R.mipmap.timg );
-        imagePath.add( R.mipmap.timg );
-        imagePath.add( R.mipmap.timg);
+        imagePath.add( R.drawable.timg );
+        imagePath.add( R.drawable.timg );
+        imagePath.add( R.drawable.timg);
         imageTitle.add( "我是海鸟一号" );
         imageTitle.add( "我是海鸟二号" );
         imageTitle.add( "我是海鸟三号" );

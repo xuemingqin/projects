@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.example.welcomemyapplication.fragment.FragmentHome;
 import com.example.welcomemyapplication.fragment.FragmentMy;
 import com.example.welcomemyapplication.fragment.FragmentSeach;
-import com.example.welcomemyapplication.fragment.Fragmenttuan;
+import com.example.welcomemyapplication.fragment.FragmentTuan;
 import com.example.welcomemyapplication.R;
 
 public class MainActivity extends FragmentActivity implements RadioGroup.OnCheckedChangeListener{
@@ -43,7 +43,7 @@ public class MainActivity extends FragmentActivity implements RadioGroup.OnCheck
                 changeFragment ( new FragmentHome (),true );
                 break;
             case R.id.tuan:
-                changeFragment ( new Fragmenttuan(),true );
+                changeFragment ( new FragmentTuan(),true );
                 break;
             case R.id.search:
                 changeFragment ( new FragmentSeach(),true );

@@ -9,12 +9,9 @@ public class MainApplication extends Application{
     public void onCreate() {
         super.onCreate( );
         setMainOpened(false);
-        isAuthenticated();
-
+//        isAuthenticated();
 
     }
-
-
 
     public void setMainOpened(boolean isMainOpened) {
         this.isMainOpened=isMainOpened;

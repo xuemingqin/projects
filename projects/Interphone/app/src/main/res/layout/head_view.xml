@@ -4,13 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:background="@color/colorPrimaryDark"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
     <android.support.v7.widget.Toolbar
-        android:id="@+id/tool_bar"
+        android:id="@+id/tool_bar_head"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#fdd000"
+        android:background="@android:color/darker_gray"
         android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/txt_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:visibility="visible"/>
 
 </LinearLayout>

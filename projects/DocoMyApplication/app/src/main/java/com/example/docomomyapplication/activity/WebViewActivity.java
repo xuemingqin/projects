@@ -27,7 +27,7 @@ public class WebViewActivity extends AppCompatActivity{
             }
         } );
         webView.loadUrl( url );
-        webView.getSettings( ).setJavaScriptEnabled( true );
+//        webView.getSettings( ).setJavaScriptEnabled( true );
     }
     @Override
     public void onBackPressed() {

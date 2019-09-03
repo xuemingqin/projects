@@ -16,8 +16,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.welcomemyapplication.activity.RankingList;
+import com.example.welcomemyapplication.activity.SearchTheCity;
+import com.example.welcomemyapplication.activity.ShopListActivity;
 import com.example.welcomemyapplication.helper.Constants;
 import com.example.welcomemyapplication.helper.MyUtils;
 import com.example.welcomemyapplication.R;
@@ -28,29 +32,61 @@ public class FragmentHome extends Fragment implements LocationListener{
 
     private TextView topCity;
     private String cityName;
-    private LocationManager locationManager;
     private GridView gridView;
+
+    private LinearLayout mSearch_list_huiyuanka, mSearch_list_souquancheng,
+            mSearch_list_paihangbang, mSearch_list_youhuiquan;
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate ( R.layout.fragment_home, null );
-        topCity = (TextView) view.findViewById ( R.id.home_top_city );
+        initView(view);
         gridView = (GridView) view.findViewById ( R.id.gv );
-        topCity.setOnClickListener ( new View.OnClickListener ( ){
-            @Override
-            public void onClick(View view) {
-                switch (view.getId ( )) {
-                    case R.id.home_top_city:
-                        startActivityForResult ( new Intent ( getActivity ( ), CityActivity.class ), Constants.RequestCityCode );
-                        break;
-                    default:
-                }
-            }
-        } );
-        gridView.setAdapter ( new myAdapter ( ) );
+        gridView.setAdapter ( new MyAdapter ( ) );
         return view;
+    }
+
+    private void initView(View view) {
+        topCity = (TextView) view.findViewById ( R.id.home_top_city );
+        mSearch_list_huiyuanka = (LinearLayout) view.findViewById(R.id.Search_list_huiyuanka);
+        mSearch_list_souquancheng = (LinearLayout) view.findViewById(R.id.Search_list_souquancheng);
+        mSearch_list_paihangbang = (LinearLayout) view.findViewById(R.id.Search_list_paihangbang);
+        mSearch_list_youhuiquan = (LinearLayout) view.findViewById(R.id.Search_list_youhuiquan);
+        MyOnclickListener mOnclickListener = new MyOnclickListener();
+        topCity.setOnClickListener(mOnclickListener);
+//        gridView.setOnClickListener(mOnclickListener);
+        mSearch_list_huiyuanka.setOnClickListener(mOnclickListener);
+        mSearch_list_souquancheng.setOnClickListener(mOnclickListener);
+        mSearch_list_paihangbang.setOnClickListener(mOnclickListener);
+        mSearch_list_youhuiquan.setOnClickListener(mOnclickListener);
+
+    }
+
+    private class MyOnclickListener implements View.OnClickListener {
+        public void onClick(View v) {
+            int mID = v.getId();
+            switch (mID) {
+                case R.id.Search_list_souquancheng:
+                    Intent intent = new Intent(getActivity(),
+                            SearchTheCity.class);
+                    getActivity().startActivity(intent);
+                    break;
+                case R.id.Search_list_paihangbang:
+                    Intent intentRanking = new Intent(getActivity(),
+                            RankingList.class);
+                    getActivity().startActivity(intentRanking);
+                    break;
+                case R.id.home_top_city:
+                    startActivityForResult ( new Intent ( getActivity ( ), CityActivity.class ), Constants.RequestCityCode );
+                    break;
+                case R.id.gv:
+                    break;
+
+            }
+        }
+
     }
 
     @Override
@@ -73,7 +109,7 @@ public class FragmentHome extends Fragment implements LocationListener{
 
     }
 
-    public class myAdapter extends BaseAdapter{
+    public class MyAdapter extends BaseAdapter{
 
         @Override
         public int getCount() {
@@ -107,15 +143,24 @@ public class FragmentHome extends Fragment implements LocationListener{
             }
             hoder.tv.setText ( MyUtils.navsSort[position] );
             hoder.iv.setImageResource ( MyUtils.navsSortImages[position] );
-            if (position==MyUtils.navsSort.length-1)
-                hoder.iv.setOnClickListener ( new View.OnClickListener ( ){
+            if (position==MyUtils.navsSort.length-1) {
+                hoder.iv.setOnClickListener( new View.OnClickListener( ){
                     @Override
                     public void onClick(View v) {
-                        startActivity ( new Intent ( getActivity (), AllCategoryActivity.class ) );
+                        startActivity( new Intent( getActivity( ), AllCategoryActivity.class ) );
                     }
                 } );
-                return convertView;
+            } else {
+                hoder.iv.setOnClickListener( new View.OnClickListener( ){
+                    @Override
+                    public void onClick(View v) {
+                        startActivity( new Intent( getActivity( ), ShopListActivity.class ) );
+                    }
+                } );
             }
+                return convertView;
+
+        }
 
         }
 

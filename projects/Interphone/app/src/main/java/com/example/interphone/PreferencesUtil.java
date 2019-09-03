@@ -52,4 +52,13 @@ public class PreferencesUtil {
         Boolean isAuthenticated = sp.getBoolean(IS_AUTHENTICATED, false);
         return isAuthenticated;
     }
+    public static void saveUser(Context mContext, User mUser){
+        SharedPreferences sp = mContext.getSharedPreferences(USER_INFO, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sp.edit();
+        editor.putString(USER_ID, mUser.getUserId());
+        if (!StringUtil.isNull(mUser.getPassword())) {
+            editor.putString(PASSWORD, mUser.getPassword());
+        }
+        editor.commit();
+    }
 }

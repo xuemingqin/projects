@@ -24,13 +24,13 @@
         <item
             android:id="@+id/menu_trem"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title=">利用規約">
+            android:title="利用規約">
 
         </item>
         <item
             android:id="@+id/menu_user_info"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title=">個人情報取扱">
+            android:title="個人情報取扱">
 
         </item>
         <item
