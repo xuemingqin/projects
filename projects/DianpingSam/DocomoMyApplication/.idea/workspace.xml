@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57386b24-995d-4c5c-b1b0-9768add11f25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/java/com/example/docomomyapplication/activity/TutorialActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_layout_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/bill_list_main_fixed_icon_resource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_item_text_colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_borderless_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/card_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/checkbox_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_iconbutton_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_taparea_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_close_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_open_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/d_market_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/edit_text_hint_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_non_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/feedback_toast_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_14dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_mail_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_support.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_sound_play_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_code_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_layout_radius_set.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/list_item_account_bottom_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_commonly_used_services_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_account_list_update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_note_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notice_list_item_unread.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notification_bell_count_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_preview_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_summary_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_passive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/reflesh_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/separation_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/spinner_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ten_key_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_checkbox_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_tab_privacy_policy_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_shadow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/top_content_detail_header_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_no_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_notification_circle_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_dark_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_control.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_config_footerbutton_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_design_image_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/CityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/data/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/androidTest/java/com/example/docomomyapplication/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/WelcomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon_nttdocomo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/test/java/com/example/docomomyapplication/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/AllCategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/AllCategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/CONSTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/helper/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/data/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/CityActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/FragmentHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/fragment/FragmentHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/FragmentMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/FragmentSeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/fragment/FragmentSeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/Fragmenttuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/data/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/helper/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/MyloginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/ResponseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/data/ResponseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/SaxHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/helper/SaxHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/SharedUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/helper/SharedUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/WelcomeStartAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/WelcomeStartAct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/welcomeGuide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/welcomemyapplication/activity/WelcomeGuideActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_seach.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_seach.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="60" />
+    <option name="y" value="23" />
+    <option name="width" value="1197" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57386b24-995d-4c5c-b1b0-9768add11f25" name="Default Changelist" comment="" />
+      <created>1563793750574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563793750574</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="60" y="23" width="1197" height="696" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34112555" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.3294702" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/docomomyapplication/WelcomeActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/docomomyapplication/MainActivity.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

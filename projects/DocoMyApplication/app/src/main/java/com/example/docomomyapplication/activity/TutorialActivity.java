@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.docomomyapplication.R;
 import com.example.docomomyapplication.adapter.TutorialFragmentPagerAdapter;
+import com.example.docomomyapplication.utils.SharedUtils;
 
 public class TutorialActivity extends AppCompatActivity{
     private ViewPager mViewPager;
@@ -18,6 +19,7 @@ public class TutorialActivity extends AppCompatActivity{
     private View mViewPagerIndicator2;
     private View mViewPagerIndicator3;
     private TextView mSkipLink;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class TutorialActivity extends AppCompatActivity{
         mViewPagerIndicator2 = findViewById ( R.id.tutorial_indicator_circle_over_2 );
         mViewPagerIndicator3 = findViewById ( R.id.tutorial_indicator_circle_over_3 );
         mSkipLink = (TextView) findViewById ( R.id.tutorial_skip_link );
+
         mSkipLink.setOnClickListener ( mSkipListener );
         mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener( ){
             @Override
@@ -48,13 +51,23 @@ public class TutorialActivity extends AppCompatActivity{
                 super.onPageSelected( position );
                 switch (position) {
                     case 0:
-                        //DocomoAnalyticsHelper.getInstance().sendFirstTutorial1();
+                        mViewPagerIndicator1.setAlpha( 1f );
+                        mViewPagerIndicator2.setAlpha( 0f );
+                        mViewPagerIndicator3.setAlpha( 0f );
+                        mSkipLink.setVisibility( View.VISIBLE );
                         break;
                     case 1:
-                        //DocomoAnalyticsHelper.getInstance().sendFirstTutorial2();
+                        mViewPagerIndicator1.setAlpha( 0f );
+                        mViewPagerIndicator2.setAlpha( 1f );
+                        mViewPagerIndicator3.setAlpha( 0f );
+                        mSkipLink.setVisibility( View.VISIBLE  );
+
                         break;
                     case 2:
-                        //DocomoAnalyticsHelper.getInstance().sendFirstTutorial3();
+                        mViewPagerIndicator1.setAlpha( 0f );
+                        mViewPagerIndicator2.setAlpha( 0f );
+                        mViewPagerIndicator3.setAlpha( 1f );
+                        mSkipLink.setVisibility( View.GONE );
                         break;
                 }
             }
@@ -93,13 +106,14 @@ public class TutorialActivity extends AppCompatActivity{
         }
     };
     private void setIndicatorNoActive() {
-        mViewPagerIndicator1.setAlpha(0.0f);
+
         mViewPagerIndicator2.setAlpha(0.0f);
         mViewPagerIndicator3.setAlpha(0.0f);
     }
     public void setScreenTransition(){
         Intent intent = new Intent(getApplicationContext(), FirstAccountLoginActivity.class);
         startActivity(intent);
+        SharedUtils.putWelcome ( getApplicationContext (),true );
         finish();
 
     }

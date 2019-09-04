@@ -153,7 +153,7 @@
 
     <!-- 8．ウィジェット利用確認 -->
     <string name="confirm_use_widget_title">便利設定</string>
-    <string name="confirm_use_widget_message_content">プッシュ通知をONにすると便利なお知らせを受け取れます</string>
+    <string name="confirm_use_widget_message_content">プッシュ通知をONにすると\n便利なお知らせを受け取れます</string>
     <string name="confirm_use_widget_message_content_enter">プッシュ通知をONにすると\n便利なお知らせを受け取れます</string>
     <string name="confirm_use_widget_message_detail">プッシュ通知をONにするとデータ量や料金の\n便利な情報がすぐに受け取れます</string>
     <string name="confirm_use_widget_button">さあ、My docomoへ</string>
@@ -1529,5 +1529,7 @@ dアカウントのID／パスワードがロックされているため、認�
     <string name="account_set_password_title">パスワードを設定して保存</string>
     <string name="account_set_password_complete_message">パスワードの保存が完了しました。</string>
     <string name="multi_update_error">以下のアカウントについてはデータの読み込みができませんでした。</string>
+    <string name="passcode1">アプリ起動パスコードロック</string>
+    <string name="passcode2">パスコードを設定することで\n第三者がアプリを開くことを防げます</string>
 </resources>
 

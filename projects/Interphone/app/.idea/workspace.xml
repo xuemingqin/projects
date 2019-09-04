@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3894cf0-7c2b-4a3e-98d6-d4fc174c5390" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DianpingSam/app/src/main/res/drawable-v24/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DianpingSam/app/src/main/res/drawable-v24/my_tab_background_d.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DianpingSam/app/src/main/res/drawable-v24/my_tab_background_u.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/java/com/example/docomomyapplication/activity/TutorialActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_tutorial_pass_lock_mess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_layout_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/bill_list_main_fixed_icon_resource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_item_text_colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_borderless_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/card_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/checkbox_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_iconbutton_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_taparea_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_close_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_open_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/d_market_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/edit_text_hint_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_non_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/feedback_toast_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_14dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_mail_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_support.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_sound_play_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_code_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_layout_radius_set.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/list_item_account_bottom_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_commonly_used_services_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_account_list_update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_note_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notice_list_item_unread.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notification_bell_count_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_preview_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_summary_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_passive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/reflesh_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/separation_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/spinner_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ten_key_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_checkbox_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_tab_privacy_policy_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_shadow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/top_content_detail_header_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_no_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_notification_circle_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_dark_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_control.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_config_footerbutton_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_design_image_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_customer_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_home1_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_home_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_mail_setting_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_support_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_noti_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_noti_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_push_device.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_push_dialog_tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/androidTest/java/com/example/docomomyapplication/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/WelcomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon_nttdocomo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/test/java/com/example/docomomyapplication/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/androidTest/java/com/example/welcomemyapplication/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/CityActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/Fragmenttuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/AllCategoryActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/WelcomeGuideActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/activity/WelcomeStartAct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/data/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/data/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/data/ResponseObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/fragment/FragmentHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/fragment/FragmentSeach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/helper/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/helper/MyUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/helper/SaxHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/java/com/example/welcomemyapplication/helper/SharedUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/btn_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/btn_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/btn_text_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/city_list_search_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_home_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_home_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_my_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_my_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_search_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_search_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_tuan_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/main_index_tuan_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_baby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_beauty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_discount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_grouponshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_hotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_imarry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_jiazhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_jingdian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_ktv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_movie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_pet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_relax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_shoppingmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_takeaway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_yanchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_yiyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/nav_zhoubianyou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/new_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/title_home_arrow_down_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xp/title_home_arrow_down_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_home_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_home_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_my_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_my_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_search_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_search_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_tuan_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/main_index_tuan_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_baby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_beauty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_discount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_grouponshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_hotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_imarry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_jiazhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_jingdian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_ktv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_movie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_pet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_relax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_shoppingmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_takeaway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_yanchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_yiyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/nav_zhoubianyou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/new_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/title_home_arrow_down_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/drawable-xxhdpi/title_home_arrow_down_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/guide_welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/home_icon_hot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/hui_discount_item_rule_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ic_back_u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ic_launcher_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ic_web_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/icon_famous_brand_price.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/icon_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_home_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_home_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_my_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_my_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_search_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_search_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_tuan_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/main_index_tuan_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/my_coupon_user_icon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/my_dianping_user_icon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/my_favorite_user_icon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_baby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_beauty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_discount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_grouponshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_hotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_imarry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_jiazhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_jingdian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_ktv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_movie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_pet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_relax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_shoppingmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_takeaway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_yanchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_yiyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/nav_zhoubianyou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/new_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/odaidianp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/omeiri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/oshezhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ozhifubao_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/ozuijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/person_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/qq_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/seach.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/sz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/tab_left_normal.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/tab_left_press.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/tab_right_normal.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/tab_right_press.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/title_home_arrow_down_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/title_home_arrow_down_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/tuan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable-xxhdpi/weixin_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable/color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable/guide_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable/guide_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/drawable/guide_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_regisiten.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_seach.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_tuan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/activity_welcome_guide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/header_city_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/home_citylist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/home_index_all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/home_index_all_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/home_index_nav_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/item_tuan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/layout/my_index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_home_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_home_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_my_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_my_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_search_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_search_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_tuan_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/main_index_tuan_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxhdpi/show_head_toast_bg.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/app/src/test/java/com/example/welcomemyapplication/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../welcomeMyApplication/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6_API_28" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Interphone" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/MyLoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+              <folding>
+                <element signature="e#2429#3014#0" expanded="true" />
+                <element signature="e#3013#3014#0" expanded="true" />
+                <element signature="e#3111#3151#0" expanded="true" />
+                <element signature="e#3257#3278#0" expanded="true" />
+                <element signature="e#3291#3330#0" expanded="true" />
+                <element signature="e#3359#3386#0" expanded="true" />
+                <element signature="e#1650#2097#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#3472#3473#0" expanded="true" />
+                <element signature="e#3513#3514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/TermsOfUseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-584">
+              <caret line="94" column="69" selection-start-line="94" selection-start-column="69" selection-end-line="94" selection-end-column="69" />
+              <folding>
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#4029#4030#0" expanded="true" />
+                <element signature="e#4185#4206#0" expanded="true" />
+                <element signature="e#4219#4264#0" expanded="true" />
+                <element signature="e#4297#4324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/RoamingUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>we</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/ApplicationActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/LoginActicity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_nickname.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_password.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/receiving_footer.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_receiving.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/res/menu/main_drawer.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/WebViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_terms_of_use.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/Terms_of_use_Activity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/TermsOfUseActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/head_view.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/RoamingUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/PreferencesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/MyLoginActivity.java" />
+        <option value="$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/inputmethod/InputMethodManager.java" />
+        <option value="$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="541" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="interphone" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="anim" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Interphone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-01T10:42:59.967Z" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Nexus_S_API_29" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/res/anim" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/src/main/res/values" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.interphone" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3894cf0-7c2b-4a3e-98d6-d4fc174c5390" name="Default Changelist" comment="" />
+      <created>1566112601027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566112601027</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="541" y="23" width="1280" height="716" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49919486" weight="0.17043619" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" sideWeight="0.50080514" side_tool="true" weight="0.17043619" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.33011273" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49869904" visible="true" weight="0.34615386" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" weight="0.44122383" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32852563" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50130093" side_tool="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.048076924" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.20032051" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.33198708" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/MainActivity.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/WebViewActivity.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/interphone/MyLoginActivity.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b056d87c35d4c9292a79edcaed64d0e/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="3259" selection-start-line="3259" selection-end-line="3259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="5472" column="28" selection-start-line="5472" selection-start-column="28" selection-end-line="5472" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginActivity2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginActicity.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/936849b72804944bf8ad990a320b377d/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/receiving_footer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/webview_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_receiving.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_password.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_nickname.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/WebViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/btn_login_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/button_into.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_terms_of_use.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/ConnectivityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/slide_in_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/slide_in_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/anim/slide_in_right.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/anim/slide_out_left.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/PreferencesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/inputmethod/InputMethodManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1123" column="19" selection-start-line="1123" selection-start-column="19" selection-end-line="1123" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/RoamingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="6011" column="18" selection-start-line="6011" selection-start-column="18" selection-end-line="6011" selection-end-column="18" />
+          <folding>
+            <element signature="e#44383#44384#0" expanded="true" />
+            <element signature="e#44456#44457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18235" column="19" selection-start-line="18235" selection-start-column="19" selection-end-line="18235" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="94" column="69" selection-start-line="94" selection-start-column="69" selection-end-line="94" selection-end-column="69" />
+          <folding>
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
+            <element signature="e#4185#4206#0" expanded="true" />
+            <element signature="e#4219#4264#0" expanded="true" />
+            <element signature="e#4297#4324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/head_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/TermsOfUseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interphone/MyLoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+          <folding>
+            <element signature="e#2429#3014#0" expanded="true" />
+            <element signature="e#3013#3014#0" expanded="true" />
+            <element signature="e#3111#3151#0" expanded="true" />
+            <element signature="e#3257#3278#0" expanded="true" />
+            <element signature="e#3291#3330#0" expanded="true" />
+            <element signature="e#3359#3386#0" expanded="true" />
+            <element signature="e#1650#2097#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3513#3514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_horizontal_10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/back"
+            android:text="便利設定"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/botton_bar">
+
+    </include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_horizontal_32dp"
+        android:layout_marginRight="@dimen/margin_horizontal_32dp"
+        android:layout_marginTop="@dimen/margin_horizontal_32dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passcode1"
+            android:gravity="center"
+            android:textSize="@dimen/margin_vertical_18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passcode2"
+            android:lineHeight="@dimen/margin_horizontal_20dp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_horizontal_32dp"
+            android:textSize="@dimen/margin_vertical_14dp"
+            />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="264dp"
+            android:layout_height="@dimen/margin_vertical_48dp"
+            android:layout_marginTop="@dimen/margin_horizontal_32dp"
+            android:text="設定する"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:textColor="@color/warning_and_ten_key_background"
+            android:textSize="@dimen/margin_horizontal_14dp"
+
+            />
+
+        <TextView
+            android:id="@+id/superlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_49dp"
+            android:text="パスコードロックとは？"
+            android:gravity="center"
+            android:textSize="@dimen/margin_horizontal_14dp"
+            android:textColor="#0070C9"
+            />
+
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_28dp"
+            android:text="スキップ"
+            android:gravity="center"
+            android:textSize="@dimen/margin_horizontal_14dp"
+            android:textColor="#0070C9"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

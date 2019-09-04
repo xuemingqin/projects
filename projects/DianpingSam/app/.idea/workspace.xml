@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ae83ce0-909f-49a2-a70e-6ef4c3badcc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/java/com/example/docomomyapplication/activity/TutorialActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_passcode_num_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable-v24/icon_tutorial_pass_lock_mess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/app_lock_input_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/banner_layout_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/bill_list_main_fixed_icon_resource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/breakdown_view_pager_indicator_item_text_colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_account_password_mask_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/button_borderless_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/card_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/checkbox_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backblue_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backgray_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backwhite_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_background_tap_appendimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_button_backyellow_textcolor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_iconbutton_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_taparea_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_close_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/common_title_with_toggle_open_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/d_market_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/edit_text_hint_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_non_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/fee_detail_month_amount_list_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/feedback_toast_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_14dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ic_reorder_lightgray_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_mail_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_bottom_support.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/icon_sound_play_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_code_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/input_security_layout_radius_set.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/list_item_account_bottom_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_commonly_used_services_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/mail_service_setting_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_account_list_update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/navigation_drawer_note_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notice_list_item_unread.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/notification_bell_count_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_preview_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_category_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_summary_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/preference_top_divider_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/progress_bar_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/recommend_indicator_passive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/reflesh_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/separation_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/servicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/spinner_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_folding_flame_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_accordion_title_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/supportservicelist_title_select_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/ten_key_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_checkbox_icon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/term_tab_privacy_policy_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_footer_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/toolbar_shadow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/top_content_detail_header_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/tutorial_footer_view_circle_no_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/update_setting_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_highlight_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/upper_tab_view_pager_indicator_notification_circle_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_dark_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_control.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_preference_seekbar_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_big_row_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_config_footerbutton_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/drawable/widget_design_image_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_customer_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_home1_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_home_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_mail_setting_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_bottom_support_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_noti_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_noti_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_push_device.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DocoMyApplication/app/src/main/res/drawable/icon_tutorial_push_dialog_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/CityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/androidTest/java/com/example/docomomyapplication/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/java/com/example/docomomyapplication/WelcomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable-v24/icon_nttdocomo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/app/src/test/java/com/example/docomomyapplication/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DocomoMyApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/AllCategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/AllCategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/CONSTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/CityActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/FragmentHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/FragmentMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/FragmentSeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentSeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/Fragmenttuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/MyloginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/ResponseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/ResponseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/SaxHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/SaxHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/SharedUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/SharedUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/WelcomeStartAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeStartAct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/welcomeGuide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeGuideActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_seach.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_seach.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="welcomeMyApplication" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="welcomeMyApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentSeach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeStartAct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeGuideActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_home.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getView</find>
+      <find>layout_weight</find>
+      <find>city_list_item_tv_sortKey</find>
+      <find>dialog</find>
+      <find>city_list_lv</find>
+      <find>activity_city_list_tv_back</find>
+      <find>SQL_CREATE_ENTRIES</find>
+      <find>SQL_DELETE_ENTRIES</find>
+      <find>`</find>
+      <find>DATABASE_NAME</find>
+      <find>CHARACTER SET utf8</find>
+      <find>Android Device Monitor</find>
+      <find>list</find>
+      <find>findIndexBySortKey</find>
+      <find>alph</find>
+      <find>ivbac</find>
+      <find>helper</find>
+      <find>cursor</find>
+      <find>hideSoftKeyboard</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+      <replace>TEXT</replace>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/res/layout/main_home_search_shape.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/SideBar.java" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/sidebar_background.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_city_list_item.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/SaxXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/res/values/citys.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_city_list.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/anim/activity_slide_in_right.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/anim/activity_slide_out_left.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/CityActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/FragmentHome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/VerticalScrollView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/Fragmenttuan.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/index_tuan_list1.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/SharedUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/WelcomeStartAct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/HttpClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/ResponseObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/DbOpenHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/SharedUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/model/ShopInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/index_tuan.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/FileUtiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/LoadImg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/net/DownBitmap.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/item_shop.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/list_background_imgbg.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/list_background.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/adapter/ShopAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/CityActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/assets/citys.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_seach.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/main_search_search_shape.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/where.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/where2.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/seach2.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/where3.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/DBHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1213" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Nexus_S_API_29" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/res/drawable-mdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/src/main/res/drawable-mdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.welcomemyapplication" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ae83ce0-909f-49a2-a70e-6ef4c3badcc1" name="Default Changelist" comment="" />
+      <created>1563752983551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563752983551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="23" width="1213" height="721" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.11752137" side_tool="true" weight="0.09222423" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.8643411" visible="true" weight="0.23911187" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" sideWeight="0.13565892" side_tool="true" weight="0.2779177" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.046875" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.24094488" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.24409449" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32913387" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.29570746" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.22955975" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.53652173" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3290735" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" weight="0.32958478" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.3296328" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" sideWeight="0.11752137" side_tool="true" weight="0.09222423" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8643411" visible="true" weight="0.17164816" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" sideWeight="0.13565892" side_tool="true" weight="0.2779177" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.046875" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.24094488" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.24409449" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32913387" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.296875" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.22955975" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.53652173" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3290735" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" weight="0.32958478" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="pass.getText ()" />
+        <watch expression="password.getText ()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_city_list.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/views/SideBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/CityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assets/citys.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-mdpi/city_bottom_item_background.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor" />
+      <provider editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/main_search_search_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_seach.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_search_list3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="429" column="48" selection-start-line="429" selection-start-column="30" selection-end-line="429" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/database/sqlite/SQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/model/ShopInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2385#2386#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+            <element signature="e#2596#2597#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
+            <element signature="e#2665#2666#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2760#2761#0" expanded="true" />
+            <element signature="e#2796#2797#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2880#2881#0" expanded="true" />
+            <element signature="e#2924#2925#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3044#3045#0" expanded="true" />
+            <element signature="e#3088#3089#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3153#3154#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3307#3308#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+            <element signature="e#3432#3433#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+            <element signature="e#3510#3511#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3732#3733#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3797#3798#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="e#3884#3885#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
+            <element signature="e#3943#3944#0" expanded="true" />
+            <element signature="e#3984#3985#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
+            <element signature="e#4093#4094#0" expanded="true" />
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4200#4201#0" expanded="true" />
+            <element signature="e#4231#4232#0" expanded="true" />
+            <element signature="e#4259#4260#0" expanded="true" />
+            <element signature="e#4300#4301#0" expanded="true" />
+            <element signature="e#4334#4335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/TuanOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_welcome.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_welcome_guide.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_tuan.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_tuan.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/where.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/where2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/where3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_shop.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-2251">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_regisiten.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/seach2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_search_list1.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_search_list2.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" column="41" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan_list1.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan_list2.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan_list3.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan_list4.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="187" column="17" selection-start-line="187" selection-start-column="17" selection-end-line="187" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/adapter/ShopAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/content/ContentValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1787">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/index_tuan_list6.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/helper/LoginHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/data/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/my_index.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding>
+            <element signature="e#1569#1595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/guide_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="e#2458#2459#0" expanded="true" />
+            <element signature="e#2512#2513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MyloginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentSeach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/Fragmenttuan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/fragment/FragmentMy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeStartAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/WelcomeGuideActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/welcomemyapplication/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

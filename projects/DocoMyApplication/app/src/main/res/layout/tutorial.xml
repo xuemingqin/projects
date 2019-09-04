@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/margin_vertical_24dp"
         android:layout_above="@+id/tutorial_indicator"
-        android:alpha="0.0"
+
         android:text="@string/tutorial_skip" />
 
     <LinearLayout
@@ -92,7 +92,7 @@
                 android:layout_width="@dimen/tutorial_indicator_content_width"
                 android:layout_height="@dimen/tutorial_indicator_content_height"
                 android:layout_centerInParent="true"
-                android:alpha="0.0"/>
+                android:alpha="1"/>
         </RelativeLayout>
 
         <View

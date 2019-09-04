@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/shop_details_qita_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADADAD"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+
+        >
+
+        <TextView
+            android:id="@+id/shop_fujin_meishi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.2dp"
+            android:layout_marginTop="0.2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:text="美食"
+            android:textColor="#00aa00"/>
+
+        <TextView
+            android:id="@+id/shop_fujin_jingdian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.2dp"
+            android:layout_marginTop="0.2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:text="景点" />
+
+        <TextView
+            android:id="@+id/shop_fujin_jiudian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.2dp"
+            android:layout_marginTop="0.2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:text="酒店" />
+
+        <TextView
+            android:id="@+id/shop_fujin_quanbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:text="全部" />
+    </LinearLayout>
+</RelativeLayout>
+

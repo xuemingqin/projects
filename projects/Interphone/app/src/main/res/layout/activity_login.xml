@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/head_view"
+            android:id="@+id/tool_bar_login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@+id/tool_bar"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ログインID:"
+                    android:textColor="@android:color/background_dark"
+                    />
+
+                <EditText
+                    android:id="@+id/edit_id"
+                    style="@style/LoginEdit"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="パスワード:"
+                    android:textColor="@android:color/background_dark"
+                    />
+
+                <EditText
+                    style="@style/LoginEdit"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:id="@+id/edit_password"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp">
+
+        <Button
+            style="@style/button_login"
+            android:enabled="false"
+            android:textColor="@android:color/white"
+            android:text="ログインする"
+            android:id="@+id/btn_login"
+            />
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID・パスワードをお忘れの場合"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/forget"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
